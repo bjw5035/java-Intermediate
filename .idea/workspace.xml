@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(Object 클래스)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/object/tostring/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/object/tostring/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/object/tostring/ObjectPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/object/tostring/ToStringMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/object/tostring/ToStringMain2.java" afterDir="false" />
+    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(Object 클래스, toString 오버라이드)">
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/object/equals/EqualsMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/object/equals/UserV1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -172,7 +169,7 @@
       <workItem from="1736744191361" duration="1657000" />
       <workItem from="1736745897445" duration="133000" />
       <workItem from="1736746101106" duration="177000" />
-      <workItem from="1736746300543" duration="3348000" />
+      <workItem from="1736746300543" duration="5069000" />
     </task>
     <task id="LOCAL-00001" summary="feat : 김영한 자바 중급(깃 테스트)">
       <option name="closed" value="true" />
@@ -206,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736747614077</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat : 김영한 자바 중급(Object 클래스, toString 오버라이드)">
+      <option name="closed" value="true" />
+      <created>1736749702760</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736749702760</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +221,8 @@
     <MESSAGE value="feat : 김영한 자바 중급(깃 테스트)" />
     <MESSAGE value="feat : 김영한 자바 중급(패키지명 수정)" />
     <MESSAGE value="feat : 김영한 자바 중급(Object 클래스)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(Object 클래스)" />
+    <MESSAGE value="feat : 김영한 자바 중급(Object 클래스, toString 오버라이드)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(Object 클래스, toString 오버라이드)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
