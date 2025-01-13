@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(Object 클래스, toString 오버라이드)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/object/equals/EqualsMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/object/equals/UserV1.java" afterDir="false" />
+    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(Object 클래스, equals 비교)">
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/object/equals/EqualsMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/object/equals/UserV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/object/test/ExRectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/object/test/RactangleMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/lang/object/tostring/ToStringMain2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/lang/object/tostring/ToStringMain2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +54,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.EqualsMainV2.executor": "Run",
     "Application.ObjectMain.executor": "Run",
     "Application.ObjectPolyExample1.executor": "Run",
+    "Application.RactangleMain.executor": "Debug",
     "Application.ToStringMain1.executor": "Run",
     "Application.ToStringMain2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -67,7 +72,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "File.Encoding",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -75,14 +80,17 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\send2\IdeaProjects\java-Intermediate" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="src.sourceCode.lang.object.equals" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.ToStringMain2">
-    <configuration name="ObjectMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.object.ObjectMain" />
+  <component name="RunManager" selected="Application.RactangleMain">
+    <configuration name="EqualsMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.object.equals.EqualsMainV2" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.lang.object.*" />
+          <option name="PATTERN" value="src.sourceCode.lang.object.equals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,6 +104,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.sourceCode.lang.object.poly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RactangleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.object.test.RactangleMain" />
+      <module name="java-Intermediate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.sourceCode.lang.object.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,17 +151,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.EqualsMainV2" />
+      <item itemvalue="Application.RactangleMain" />
       <item itemvalue="Application.ToStringMain1" />
       <item itemvalue="Application.ToStringMain2" />
-      <item itemvalue="Application.ObjectMain" />
       <item itemvalue="Application.ObjectPolyExample1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RactangleMain" />
+        <item itemvalue="Application.EqualsMainV2" />
         <item itemvalue="Application.ToStringMain2" />
         <item itemvalue="Application.ToStringMain1" />
         <item itemvalue="Application.ObjectPolyExample1" />
-        <item itemvalue="Application.ObjectMain" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +192,7 @@
       <workItem from="1736744191361" duration="1657000" />
       <workItem from="1736745897445" duration="133000" />
       <workItem from="1736746101106" duration="177000" />
-      <workItem from="1736746300543" duration="5069000" />
+      <workItem from="1736746300543" duration="7570000" />
     </task>
     <task id="LOCAL-00001" summary="feat : 김영한 자바 중급(깃 테스트)">
       <option name="closed" value="true" />
@@ -211,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736749702760</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat : 김영한 자바 중급(Object 클래스, equals 비교)">
+      <option name="closed" value="true" />
+      <created>1736752112455</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1736752112455</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,7 +253,8 @@
     <MESSAGE value="feat : 김영한 자바 중급(패키지명 수정)" />
     <MESSAGE value="feat : 김영한 자바 중급(Object 클래스)" />
     <MESSAGE value="feat : 김영한 자바 중급(Object 클래스, toString 오버라이드)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(Object 클래스, toString 오버라이드)" />
+    <MESSAGE value="feat : 김영한 자바 중급(Object 클래스, equals 비교)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(Object 클래스, equals 비교)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
