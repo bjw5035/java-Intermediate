@@ -5,248 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(패키지명 수정)">
-      <change afterPath="$PROJECT_DIR$/src/exSourceCode/nested/anonymous/ex/Process.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/object/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/object/ObjectMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/object/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/object/poly/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/object/poly/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/object/poly/ObjectPolyExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/object/poly/ObjectPolyExample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/소스코드/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/ex0/DiscountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/ex0/DiscountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/ex0/StringGradeEx0_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/ex0/StringGradeEx0_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/ex0/StringGradeEx0_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/ex0/StringGradeEx0_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/ex1/DiscountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/ex1/DiscountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/ex1/StringGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/ex1/StringGrade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/ex1/StringGradeEx1_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/ex1/StringGradeEx1_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/ex1/StringGradeEx1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/ex1/StringGradeEx1_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/ex2/ClassGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/ex2/ClassGrade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/ex2/ClassGradeEx2_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/ex2/ClassGradeEx2_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/ex2/ClassGradleEx2_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/ex2/ClassGradleEx2_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/ex2/ClassRefMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/ex2/ClassRefMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/ex2/DiscountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/ex2/DiscountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/ex3/ClassGradeEx3_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/ex3/ClassGradeEx3_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/ex3/ClassGradleEx3_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/ex3/ClassGradleEx3_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/ex3/DiscountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/ex3/DiscountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/ex3/EnumMethodMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/ex3/EnumMethodMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/ex3/EnumRefMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/ex3/EnumRefMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/ex3/Grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/ex3/Grade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/ref1/ClassGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/ref1/ClassGrade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/ref1/ClassGradeRefMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/ref1/ClassGradeRefMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/ref1/DiscountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/ref1/DiscountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/ref2/DiscountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/ref2/DiscountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/ref2/EnumRefMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/ref2/EnumRefMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/ref2/Grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/ref2/Grade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/ref3/DiscountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/ref3/DiscountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/ref3/EnumRefMain3_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/ref3/EnumRefMain3_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/ref3/EnumRefMain3_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/ref3/EnumRefMain3_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/ref3/EnumRefMain3_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/ref3/EnumRefMain3_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/ref3/EnumRefMain3_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/ref3/EnumRefMain3_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/ref3/Grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/ref3/Grade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/test/AuthGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/test/AuthGrade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/test/AuthGradeMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/test/AuthGradeMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/test/AuthGradeMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/test/AuthGradeMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/test/http/HttpStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/test/http/HttpStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/enumeration/test/http/HttpStatusMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/enumeration/test/http/HttpStatusMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/basic/checked/CheckedCatchMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/basic/checked/CheckedCatchMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/basic/checked/CheckedThrowMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/basic/checked/CheckedThrowMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/basic/checked/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/basic/checked/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/basic/checked/MyCheckedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/basic/checked/MyCheckedException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/basic/checked/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/basic/checked/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/basic/unchecked/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/basic/unchecked/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/basic/unchecked/MyUncheckedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/basic/unchecked/MyUncheckedException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/basic/unchecked/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/basic/unchecked/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/basic/unchecked/UncheckedCatchMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/basic/unchecked/UncheckedCatchMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/basic/unchecked/UncheckedThrowMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/basic/unchecked/UncheckedThrowMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex0/MainV0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex0/MainV0.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex0/NetworkClientV0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex0/NetworkClientV0.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex0/NetworkServiceV0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex0/NetworkServiceV0.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex1/MainV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex1/MainV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex1/NetworkClientV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex1/NetworkClientV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex1/NetworkServiceV1_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex1/NetworkServiceV1_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex1/NetworkServiceV1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex1/NetworkServiceV1_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex1/NetworkServiceV1_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex1/NetworkServiceV1_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex2/MainV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex2/MainV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex2/NetworkClientExceptionV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex2/NetworkClientExceptionV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex2/NetworkClientV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex2/NetworkClientV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex2/NetworkServiceV2_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex2/NetworkServiceV2_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex2/NetworkServiceV2_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex2/NetworkServiceV2_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex2/NetworkServiceV2_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex2/NetworkServiceV2_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex2/NetworkServiceV2_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex2/NetworkServiceV2_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex2/NetworkServiceV2_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex2/NetworkServiceV2_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex3/MainV3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex3/MainV3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex3/NetworkClientV3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex3/NetworkClientV3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex3/NetworkServiceV3_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex3/NetworkServiceV3_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex3/NetworkServiceV3_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex3/NetworkServiceV3_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex3/exception/ConnectExceptionV3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex3/exception/ConnectExceptionV3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex3/exception/NetworkClientExceptionV3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex3/exception/NetworkClientExceptionV3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex3/exception/SendExceptionV3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex3/exception/SendExceptionV3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex4/MainV4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex4/MainV4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex4/NetworkClientV4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex4/NetworkClientV4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex4/NetworkClientV5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex4/NetworkClientV5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex4/NetworkServiceV4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex4/NetworkServiceV4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex4/NetworkServiceV5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex4/NetworkServiceV5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex4/exception/ConnectExceptionV4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex4/exception/ConnectExceptionV4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex4/exception/NetworkClientExceptionV4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex4/exception/NetworkClientExceptionV4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/exception/ex4/exception/SendExceptionV4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/exception/ex4/exception/SendExceptionV4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/LangMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/LangMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/clazz/ClassCreateMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/clazz/ClassCreateMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/clazz/ClassMetaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/clazz/ClassMetaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/clazz/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/clazz/Hello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/immutable/address/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/immutable/address/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/immutable/address/ImmutableAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/immutable/address/ImmutableAddress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/immutable/address/MemberMainV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/immutable/address/MemberMainV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/immutable/address/MemberMainV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/immutable/address/MemberMainV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/immutable/address/MemberV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/immutable/address/MemberV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/immutable/address/MemberV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/immutable/address/MemberV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/immutable/address/PrimitiveMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/immutable/address/PrimitiveMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/immutable/address/RefMain1_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/immutable/address/RefMain1_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/immutable/address/RefMain1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/immutable/address/RefMain1_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/immutable/address/RefMain1_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/immutable/address/RefMain1_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/immutable/address/RefMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/immutable/address/RefMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/immutable/change/ImmutableMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/immutable/change/ImmutableMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/immutable/change/ImmutableMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/immutable/change/ImmutableMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/immutable/change/ImmutableObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/immutable/change/ImmutableObj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/immutable/change/MutableMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/immutable/change/MutableMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/immutable/change/MutableObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/immutable/change/MutableObj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/immutable/test/ImmutableMyDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/immutable/test/ImmutableMyDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/immutable/test/ImmutableMyDateMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/immutable/test/ImmutableMyDateMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/immutable/test/MyDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/immutable/test/MyDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/immutable/test/MyDateMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/immutable/test/MyDateMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/math/MathMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/math/MathMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/math/RandomMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/math/RandomMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/math/test/LottoGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/math/test/LottoGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/math/test/LottoGeneratorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/math/test/LottoGeneratorMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/object/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/object/Child.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/object/ObjectMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/object/ObjectMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/object/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/object/Parent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/object/equals/EqualsMainV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/object/equals/EqualsMainV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/object/equals/EqualsMainV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/object/equals/EqualsMainV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/object/equals/UserV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/object/equals/UserV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/object/equals/UserV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/object/equals/UserV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/object/poly/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/object/poly/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/object/poly/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/object/poly/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/object/poly/ObjectPolyExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/object/poly/ObjectPolyExample1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/object/poly/ObjectPolyExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/object/poly/ObjectPolyExample2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/object/test/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/object/test/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/object/test/RectangleMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/object/test/RectangleMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/object/tostring/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/object/tostring/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/object/tostring/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/object/tostring/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/object/tostring/ObjectPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/object/tostring/ObjectPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/object/tostring/ToStringMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/object/tostring/ToStringMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/object/tostring/ToStringMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/object/tostring/ToStringMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/CharArrayMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/CharArrayMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/StringBasicMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/StringBasicMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/StringConcatMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/StringConcatMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/builder/LoopStringBuilderMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/builder/LoopStringBuilderMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/builder/LoopStringMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/builder/LoopStringMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/builder/StringBuilderMain1_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/builder/StringBuilderMain1_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/builder/StringBuilderMain1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/builder/StringBuilderMain1_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/chaining/MethodChainingMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/chaining/MethodChainingMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/chaining/MethodChainingMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/chaining/MethodChainingMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/chaining/MethodChainingMain3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/chaining/MethodChainingMain3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/chaining/ValueAdder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/chaining/ValueAdder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/equals/StringEqualsMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/equals/StringEqualsMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/equals/StringEqualsMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/equals/StringEqualsMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/immutable/StringImmutable1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/immutable/StringImmutable1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/immutable/StringImmutable2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/immutable/StringImmutable2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/method/StringChangeMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/method/StringChangeMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/method/StringChangeMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/method/StringChangeMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/method/StringComparisonMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/method/StringComparisonMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/method/StringInfoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/method/StringInfoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/method/StringSearchMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/method/StringSearchMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/method/StringSplitJoinMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/method/StringSplitJoinMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/method/StringUtilsMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/method/StringUtilsMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/method/StringUtilsMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/method/StringUtilsMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/test/TestString1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/test/TestString1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/test/TestString10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/test/TestString10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/test/TestString11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/test/TestString11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/test/TestString2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/test/TestString2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/test/TestString3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/test/TestString3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/test/TestString4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/test/TestString4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/test/TestString5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/test/TestString5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/test/TestString6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/test/TestString6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/test/TestString7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/test/TestString7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/test/TestString8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/test/TestString8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/string/test/TestString9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/string/test/TestString9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/system/SystemMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/system/SystemMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/wrapper/AutoboxingMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/wrapper/AutoboxingMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/wrapper/AutoboxingMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/wrapper/AutoboxingMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/wrapper/MyInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/wrapper/MyInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/wrapper/MyIntegerMethodMain0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/wrapper/MyIntegerMethodMain0.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/wrapper/MyIntegerMethodMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/wrapper/MyIntegerMethodMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/wrapper/MyIntegerNullMain0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/wrapper/MyIntegerNullMain0.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/wrapper/MyIntegerNullMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/wrapper/MyIntegerNullMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/wrapper/WrapperClassMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/wrapper/WrapperClassMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/wrapper/WrapperUtilsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/wrapper/WrapperUtilsMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/wrapper/WrapperVsPrimitive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/wrapper/WrapperVsPrimitive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/wrapper/test/WrapperTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/wrapper/test/WrapperTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/wrapper/test/WrapperTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/wrapper/test/WrapperTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/wrapper/test/WrapperTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/wrapper/test/WrapperTest3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/lang/wrapper/test/WrapperTest4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/lang/wrapper/test/WrapperTest4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/ShdowingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/ShdowingMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/anonymous/AnonymousOuter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/anonymous/AnonymousOuter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/anonymous/ex/Ex0Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/anonymous/ex/Ex0Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/anonymous/ex/Ex0RefMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/anonymous/ex/Ex0RefMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/anonymous/ex/Ex1Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/anonymous/ex/Ex1Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/anonymous/ex/Ex1RefMainV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/anonymous/ex/Ex1RefMainV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/anonymous/ex/Ex1RefMainV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/anonymous/ex/Ex1RefMainV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/anonymous/ex/Ex1RefMainV3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/anonymous/ex/Ex1RefMainV3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/anonymous/ex/Ex1RefMainV4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/anonymous/ex/Ex1RefMainV4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/anonymous/ex/Ex1RefMainV5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/anonymous/ex/Ex1RefMainV5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/anonymous/ex/Process.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/inner/InnerOuter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/inner/InnerOuter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/inner/InnerOuterMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/inner/InnerOuterMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/inner/ex1/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/inner/ex1/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/inner/ex1/CarMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/inner/ex1/CarMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/inner/ex1/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/inner/ex1/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/inner/ex2/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/inner/ex2/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/inner/ex2/CarMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/inner/ex2/CarMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/local/LocalOuterV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/local/LocalOuterV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/local/LocalOuterV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/local/LocalOuterV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/local/LocalOuterV3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/local/LocalOuterV3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/local/LocalOuterV4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/local/LocalOuterV4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/local/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/local/Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/nested/NestedOuter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/nested/NestedOuter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/nested/NestedOuterMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/nested/NestedOuterMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/nested/ex1/Network.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/nested/ex1/Network.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/nested/ex1/NetworkMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/nested/ex2/NetworkMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/nested/ex1/NetworkMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/nested/ex1/NetworkMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/nested/ex2/Network.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/nested/ex2/Network.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/nested/ex2/NetworkMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/nested/ex1/NetworkMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/test/AnonymousMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/test/AnonymousMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/test/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/test/Hello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/test/OuterClass1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/test/OuterClass1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/test/OuterClass1Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/test/OuterClass1Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/test/OuterClass2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/test/OuterClass2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/test/OuterClass2Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/test/OuterClass2Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/test/OuterClass3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/test/OuterClass3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/test/OuterClass3Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/test/OuterClass3Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/test/ex1/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/test/ex1/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/nested/test/ex1/LibraryMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/nested/test/ex1/LibraryMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/time/ChangeTimePlusMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/time/ChangeTimePlusMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/time/ChangeTimeWithMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/time/ChangeTimeWithMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/time/ChronoFieldMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/time/ChronoFieldMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/time/ChronoUnitMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/time/ChronoUnitMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/time/DurationMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/time/DurationMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/time/FormattingMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/time/FormattingMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/time/FormattingMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/time/FormattingMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/time/GetTimeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/time/GetTimeMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/time/InstantMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/time/InstantMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/time/IsSupportedMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/time/IsSupportedMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/time/IsSupportedMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/time/IsSupportedMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/time/LocalDateMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/time/LocalDateMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/time/LocalDateTimeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/time/LocalDateTimeMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/time/LocalTimeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/time/LocalTimeMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/time/OffsetDateTimeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/time/OffsetDateTimeMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/time/PeriodMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/time/PeriodMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/time/ZoneIdMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/time/ZoneIdMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/time/ZonedDateTimeMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/time/ZonedDateTimeMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/time/test/TestAdjusters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/time/test/TestAdjusters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/time/test/TestBetween.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/time/test/TestBetween.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/time/test/TestCalendarPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/time/test/TestCalendarPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/time/test/TestLoopPlus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/time/test/TestLoopPlus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/time/test/TestPlus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/time/test/TestPlus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/예제_소스코드/time/test/TestZone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exSourceCode/time/test/TestZone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/lang/object/ObjectMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/lang/object/ObjectMain.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,6 +58,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.ObjectMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectPolyExample1.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -303,7 +71,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Color Scheme Font&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -312,7 +80,7 @@
       <recent name="C:\Users\send2\IdeaProjects\java-Intermediate" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ObjectPolyExample1">
     <configuration name="ObjectMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.object.ObjectMain" />
       <module name="java-Intermediate" />
@@ -326,8 +94,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ObjectPolyExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.object.poly.ObjectPolyExample1" />
+      <module name="java-Intermediate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.sourceCode.lang.object.poly.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.ObjectMain" />
+      <item itemvalue="Application.ObjectPolyExample1" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObjectPolyExample1" />
         <item itemvalue="Application.ObjectMain" />
       </list>
     </recent_temporary>
@@ -341,6 +127,10 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="EUC-KR" />
+    <option name="myConnectionType" value="NONE" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="" />
@@ -350,7 +140,10 @@
       <updated>1736739046458</updated>
       <workItem from="1736739048055" duration="312000" />
       <workItem from="1736739755203" duration="4290000" />
-      <workItem from="1736744191361" duration="285000" />
+      <workItem from="1736744191361" duration="1657000" />
+      <workItem from="1736745897445" duration="133000" />
+      <workItem from="1736746101106" duration="177000" />
+      <workItem from="1736746300543" duration="1079000" />
     </task>
     <task id="LOCAL-00001" summary="feat : 김영한 자바 중급(깃 테스트)">
       <option name="closed" value="true" />
@@ -368,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736742897939</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat : 김영한 자바 중급(패키지명 수정)">
+      <option name="closed" value="true" />
+      <created>1736744755561</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736744755561</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
