@@ -1,4 +1,4 @@
-package lang.string.immutable;
+package src.예제_소스코드.lang.string.immutable;
 
 public class StringImmutable2 {
 

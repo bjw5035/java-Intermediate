@@ -1,4 +1,4 @@
-package nested.anonymous.ex;
+package src.예제_소스코드.nested.anonymous.ex;
 
 public class Ex0Main {
 

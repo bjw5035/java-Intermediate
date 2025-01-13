@@ -1,4 +1,4 @@
-package exception.ex3.exception;
+package src.예제_소스코드.exception.ex3.exception;
 
 public class SendExceptionV3 extends NetworkClientExceptionV3 {
 

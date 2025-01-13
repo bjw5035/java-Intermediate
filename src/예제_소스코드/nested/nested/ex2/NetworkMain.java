@@ -1,4 +1,4 @@
-package nested.nested.ex2;
+package src.예제_소스코드.nested.nested.ex2;
 
 public class NetworkMain {
 

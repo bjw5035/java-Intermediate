@@ -1,7 +1,7 @@
-package exception.ex3;
+package src.예제_소스코드.exception.ex3;
 
-import exception.ex3.exception.ConnectExceptionV3;
-import exception.ex3.exception.SendExceptionV3;
+import src.예제_소스코드.exception.ex3.exception.ConnectExceptionV3;
+import src.예제_소스코드.exception.ex3.exception.SendExceptionV3;
 
 public class NetworkServiceV3_1 {
 

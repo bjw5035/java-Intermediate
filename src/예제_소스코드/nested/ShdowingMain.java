@@ -1,4 +1,4 @@
-package nested;
+package src.예제_소스코드.nested;
 
 public class ShdowingMain {
 

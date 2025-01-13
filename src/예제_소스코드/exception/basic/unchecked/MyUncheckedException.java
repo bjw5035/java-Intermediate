@@ -1,4 +1,4 @@
-package exception.basic.unchecked;
+package src.예제_소스코드.exception.basic.unchecked;
 
 /**
  * RuntimeException을 상속받은 예외는 언체크 예외가 된다.

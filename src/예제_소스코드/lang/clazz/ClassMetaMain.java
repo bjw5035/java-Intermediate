@@ -1,4 +1,4 @@
-package lang.clazz;
+package src.예제_소스코드.lang.clazz;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

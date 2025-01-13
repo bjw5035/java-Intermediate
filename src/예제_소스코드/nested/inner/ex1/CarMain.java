@@ -1,4 +1,4 @@
-package nested.inner.ex1;
+package src.예제_소스코드.nested.inner.ex1;
 
 public class CarMain {
     public static void main(String[] args) {

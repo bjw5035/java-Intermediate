@@ -1,4 +1,4 @@
-package lang.string.chaining;
+package src.예제_소스코드.lang.string.chaining;
 
 public class MethodChainingMain1 {
 

@@ -1,4 +1,4 @@
-package exception.basic.unchecked;
+package src.예제_소스코드.exception.basic.unchecked;
 
 public class Client {
     public void call() {

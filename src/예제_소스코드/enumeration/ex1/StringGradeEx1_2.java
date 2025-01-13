@@ -1,4 +1,4 @@
-package enumeration.ex1;
+package src.예제_소스코드.enumeration.ex1;
 
 public class StringGradeEx1_2 {
 

@@ -1,4 +1,4 @@
-package enumeration.ex0;
+package src.예제_소스코드.enumeration.ex0;
 
 public class DiscountService {
 

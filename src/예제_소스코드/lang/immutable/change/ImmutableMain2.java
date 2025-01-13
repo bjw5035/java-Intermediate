@@ -1,4 +1,4 @@
-package lang.immutable.change;
+package src.예제_소스코드.lang.immutable.change;
 
 public class ImmutableMain2 {
 

@@ -1,4 +1,4 @@
-package enumeration.ref1;
+package src.예제_소스코드.enumeration.ref1;
 
 public class ClassGrade {
     public static final ClassGrade BASIC = new ClassGrade(10); //x001

@@ -1,4 +1,4 @@
-package nested.test.ex1;
+package src.예제_소스코드.nested.test.ex1;
 
 public class Library {
 

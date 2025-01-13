@@ -1,4 +1,4 @@
-package lang.string.method;
+package src.예제_소스코드.lang.string.method;
 
 public class StringChangeMain2 {
 

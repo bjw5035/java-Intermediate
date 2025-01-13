@@ -1,4 +1,4 @@
-package lang.wrapper.test;
+package src.예제_소스코드.lang.wrapper.test;
 
 public class WrapperTest4 {
 

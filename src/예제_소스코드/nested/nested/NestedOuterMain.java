@@ -1,4 +1,4 @@
-package nested.nested;
+package src.예제_소스코드.nested.nested;
 
 public class NestedOuterMain {
 

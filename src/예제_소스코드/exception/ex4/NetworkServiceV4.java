@@ -1,4 +1,4 @@
-package exception.ex4;
+package src.예제_소스코드.exception.ex4;
 
 public class NetworkServiceV4 {
 

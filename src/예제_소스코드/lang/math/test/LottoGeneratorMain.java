@@ -1,4 +1,4 @@
-package lang.math.test;
+package src.예제_소스코드.lang.math.test;
 
 public class LottoGeneratorMain {
 

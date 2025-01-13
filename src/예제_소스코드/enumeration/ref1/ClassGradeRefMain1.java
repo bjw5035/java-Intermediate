@@ -1,4 +1,4 @@
-package enumeration.ref1;
+package src.예제_소스코드.enumeration.ref1;
 
 public class ClassGradeRefMain1 {
 

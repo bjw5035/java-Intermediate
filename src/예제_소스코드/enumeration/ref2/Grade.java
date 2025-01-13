@@ -1,4 +1,4 @@
-package enumeration.ref2;
+package src.예제_소스코드.enumeration.ref2;
 
 public enum Grade {
     BASIC(10), GOLD(20), DIAMOND(30);

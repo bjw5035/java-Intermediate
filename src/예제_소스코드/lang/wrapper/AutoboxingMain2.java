@@ -1,4 +1,4 @@
-package lang.wrapper;
+package src.예제_소스코드.lang.wrapper;
 
 public class AutoboxingMain2 {
 

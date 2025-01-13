@@ -1,4 +1,4 @@
-package time;
+package src.예제_소스코드.time;
 
 import java.time.LocalDate;
 import java.time.temporal.ChronoField;

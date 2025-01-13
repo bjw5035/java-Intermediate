@@ -1,4 +1,4 @@
-package time.test;
+package src.예제_소스코드.time.test;
 
 import java.time.LocalDate;
 import java.time.Period;

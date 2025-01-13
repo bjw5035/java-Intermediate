@@ -1,4 +1,4 @@
-package exception.ex2;
+package src.예제_소스코드.exception.ex2;
 
 public class NetworkServiceV2_5 {
 

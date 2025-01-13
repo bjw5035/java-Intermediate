@@ -1,4 +1,4 @@
-package lang.object.equals;
+package src.예제_소스코드.lang.object.equals;
 
 import java.util.Objects;
 

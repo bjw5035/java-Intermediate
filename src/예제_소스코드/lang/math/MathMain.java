@@ -1,4 +1,4 @@
-package lang.math;
+package src.예제_소스코드.lang.math;
 
 public class MathMain {
 

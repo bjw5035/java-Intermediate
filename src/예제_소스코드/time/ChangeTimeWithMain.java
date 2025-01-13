@@ -1,4 +1,4 @@
-package time;
+package src.예제_소스코드.time;
 
 import java.time.DayOfWeek;
 import java.time.LocalDateTime;

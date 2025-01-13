@@ -1,4 +1,4 @@
-package exception.ex4.exception;
+package src.예제_소스코드.exception.ex4.exception;
 
 public class ConnectExceptionV4 extends NetworkClientExceptionV4 {
 

@@ -1,6 +1,6 @@
-package nested.anonymous;
+package src.抗力_家胶内靛.nested.anonymous;
 
-import nested.local.Printer;
+import src.抗力_家胶内靛.nested.local.Printer;
 
 public class AnonymousOuter {
 

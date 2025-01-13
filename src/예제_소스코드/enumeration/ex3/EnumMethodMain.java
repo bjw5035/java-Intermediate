@@ -1,4 +1,4 @@
-package enumeration.ex3;
+package src.예제_소스코드.enumeration.ex3;
 
 import java.util.Arrays;
 

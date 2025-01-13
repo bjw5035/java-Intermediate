@@ -1,4 +1,4 @@
-package nested.nested.ex1;
+package src.예제_소스코드.nested.nested.ex1;
 
 // Network 객체 안에서만 사용
 public class NetworkMessage {

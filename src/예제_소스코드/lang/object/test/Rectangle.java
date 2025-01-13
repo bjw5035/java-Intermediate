@@ -1,4 +1,4 @@
-package lang.object.test;
+package src.예제_소스코드.lang.object.test;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package lang.string.test;
+package src.예제_소스코드.lang.string.test;
 
 public class TestString6 {
 

@@ -1,4 +1,4 @@
-package lang.object.poly;
+package src.예제_소스코드.lang.object.poly;
 
 public class ObjectPolyExample1 {
 

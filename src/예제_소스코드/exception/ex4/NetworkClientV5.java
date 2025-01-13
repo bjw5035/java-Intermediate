@@ -1,7 +1,7 @@
-package exception.ex4;
+package src.예제_소스코드.exception.ex4;
 
-import exception.ex4.exception.ConnectExceptionV4;
-import exception.ex4.exception.SendExceptionV4;
+import src.예제_소스코드.exception.ex4.exception.ConnectExceptionV4;
+import src.예제_소스코드.exception.ex4.exception.SendExceptionV4;
 
 public class NetworkClientV5 implements AutoCloseable {
 

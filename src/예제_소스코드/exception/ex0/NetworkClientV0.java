@@ -1,4 +1,4 @@
-package exception.ex0;
+package src.예제_소스코드.exception.ex0;
 
 public class NetworkClientV0 {
 

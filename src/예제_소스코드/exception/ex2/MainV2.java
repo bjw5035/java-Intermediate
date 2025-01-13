@@ -1,4 +1,4 @@
-package exception.ex2;
+package src.예제_소스코드.exception.ex2;
 
 import java.util.Scanner;
 

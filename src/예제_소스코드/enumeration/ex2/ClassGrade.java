@@ -1,4 +1,4 @@
-package enumeration.ex2;
+package src.예제_소스코드.enumeration.ex2;
 
 public class ClassGrade {
     public static final ClassGrade BASIC = new ClassGrade(); //x001

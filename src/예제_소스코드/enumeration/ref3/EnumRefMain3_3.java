@@ -1,4 +1,4 @@
-package enumeration.ref3;
+package src.예제_소스코드.enumeration.ref3;
 
 public class EnumRefMain3_3 {
 

@@ -1,4 +1,4 @@
-package lang.string.builder;
+package src.예제_소스코드.lang.string.builder;
 
 public class StringBuilderMain1_2 {
 

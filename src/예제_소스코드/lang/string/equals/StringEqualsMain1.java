@@ -1,4 +1,4 @@
-package lang.string.equals;
+package src.예제_소스코드.lang.string.equals;
 
 public class StringEqualsMain1 {
 

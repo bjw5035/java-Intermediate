@@ -1,4 +1,4 @@
-package nested.test;
+package src.예제_소스코드.nested.test;
 
 public class OuterClass3Main {
 

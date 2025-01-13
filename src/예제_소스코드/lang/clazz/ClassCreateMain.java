@@ -1,4 +1,4 @@
-package lang.clazz;
+package src.예제_소스코드.lang.clazz;
 
 public class ClassCreateMain {
     public static void main(String[] args) throws Exception {

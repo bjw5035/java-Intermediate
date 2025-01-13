@@ -1,4 +1,4 @@
-package nested.local;
+package src.예제_소스코드.nested.local;
 
 import java.lang.reflect.Field;
 

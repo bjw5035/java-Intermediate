@@ -1,4 +1,4 @@
-package lang.object.tostring;
+package src.예제_소스코드.lang.object.tostring;
 
 public class ToStringMain1 {
 

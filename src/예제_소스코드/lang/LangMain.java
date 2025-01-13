@@ -1,4 +1,4 @@
-package lang;
+package src.예제_소스코드.lang;
 
 public class LangMain {
 

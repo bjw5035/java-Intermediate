@@ -1,4 +1,4 @@
-package enumeration.test;
+package src.예제_소스코드.enumeration.test;
 
 import java.util.Scanner;
 

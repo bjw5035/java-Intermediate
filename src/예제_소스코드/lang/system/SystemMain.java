@@ -1,4 +1,4 @@
-package lang.system;
+package src.예제_소스코드.lang.system;
 
 import java.util.Arrays;
 import java.util.Map;

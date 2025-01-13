@@ -1,4 +1,4 @@
-package exception.ex1;
+package src.예제_소스코드.exception.ex1;
 
 public class NetworkServiceV1_2 {
 
