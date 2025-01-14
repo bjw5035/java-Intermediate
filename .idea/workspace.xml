@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(불변 객체)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/ImmutableAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/RefMain2.java" afterDir="false" />
+    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(불변 객체 도입)">
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/MemberMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/MemberMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/MemberV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/MemberV2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +54,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.EqualsMainV2.executor": "Run",
+    "Application.MemberMainV1.executor": "Run",
     "Application.ObjectMain.executor": "Run",
     "Application.ObjectPolyExample1.executor": "Run",
     "Application.Primitivemain.executor": "Run",
@@ -59,6 +62,7 @@
     "Application.RefMain1_1.executor": "Run",
     "Application.RefMain1_2.executor": "Run",
     "Application.RefMain1_3.executor": "Run",
+    "Application.RefMain2.executor": "Run",
     "Application.ToStringMain1.executor": "Run",
     "Application.ToStringMain2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -86,9 +90,9 @@
       <recent name="src.sourceCode.lang.object.equals" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RefMain2">
-    <configuration name="Primitivemain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.immutable.address.Primitivemain" />
+  <component name="RunManager" selected="Application.MemberMainV1">
+    <configuration name="MemberMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.immutable.address.MemberMainV1" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
@@ -153,7 +157,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Primitivemain" />
+      <item itemvalue="Application.MemberMainV1" />
       <item itemvalue="Application.RefMain1_1" />
       <item itemvalue="Application.RefMain1_2" />
       <item itemvalue="Application.RefMain1_3" />
@@ -161,11 +165,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MemberMainV1" />
         <item itemvalue="Application.RefMain2" />
         <item itemvalue="Application.RefMain1_3" />
         <item itemvalue="Application.RefMain1_2" />
         <item itemvalue="Application.RefMain1_1" />
-        <item itemvalue="Application.Primitivemain" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +200,7 @@
       <workItem from="1736746101106" duration="177000" />
       <workItem from="1736746300543" duration="10852000" />
       <workItem from="1736765305078" duration="2828000" />
-      <workItem from="1736846384335" duration="4119000" />
+      <workItem from="1736846384335" duration="5329000" />
     </task>
     <task id="LOCAL-00001" summary="feat : 김영한 자바 중급(깃 테스트)">
       <option name="closed" value="true" />
@@ -262,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736850600511</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat : 김영한 자바 중급(불변 객체 도입)">
+      <option name="closed" value="true" />
+      <created>1736851505277</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1736851505277</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +288,8 @@
     <MESSAGE value="feat : 김영한 자바 중급(Object 클래스, equals 비교)" />
     <MESSAGE value="feat : 김영한 자바 중급(Object 클래스, equals 비교 문제풀이)" />
     <MESSAGE value="feat : 김영한 자바 중급(불변 객체)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(불변 객체)" />
+    <MESSAGE value="feat : 김영한 자바 중급(불변 객체 도입)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(불변 객체 도입)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
