@@ -4,12 +4,124 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(Object 클래스, equals 비교)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/object/equals/EqualsMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/object/equals/UserV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/object/test/ExRectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/object/test/RactangleMain.java" afterDir="false" />
+    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(Object 클래스, equals 비교 문제풀이)">
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/Primitivemain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/RefMain1_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/RefMain1_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/RefMain1_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ex0/DiscountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ex0/DiscountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ex0/StringGradeEx0_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ex0/StringGradeEx0_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ex0/StringGradeEx0_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ex0/StringGradeEx0_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ex1/DiscountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ex1/DiscountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ex1/StringGradeEx1_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ex1/StringGradeEx1_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ex1/StringGradeEx1_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ex1/StringGradeEx1_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ex2/ClassGradeEx2_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ex2/ClassGradeEx2_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ex2/DiscountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ex2/DiscountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ex3/ClassGradeEx3_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ex3/ClassGradeEx3_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ex3/DiscountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ex3/DiscountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ref1/ClassGradeRefMain1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ref1/ClassGradeRefMain1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ref2/EnumRefMain2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ref2/EnumRefMain2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ref3/EnumRefMain3_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ref3/EnumRefMain3_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ref3/EnumRefMain3_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ref3/EnumRefMain3_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ref3/EnumRefMain3_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ref3/EnumRefMain3_3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ref3/EnumRefMain3_4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/ref3/EnumRefMain3_4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/test/AuthGrade.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/test/AuthGrade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/test/AuthGradeMain1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/test/AuthGradeMain1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/test/AuthGradeMain2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/test/AuthGradeMain2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/test/http/HttpStatusMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/enumeration/test/http/HttpStatusMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/basic/checked/CheckedCatchMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/basic/checked/CheckedCatchMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/basic/checked/CheckedThrowMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/basic/checked/CheckedThrowMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/basic/checked/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/basic/checked/Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/basic/unchecked/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/basic/unchecked/Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/basic/unchecked/UncheckedCatchMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/basic/unchecked/UncheckedCatchMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/basic/unchecked/UncheckedThrowMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/basic/unchecked/UncheckedThrowMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex0/MainV0.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex0/MainV0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex0/NetworkClientV0.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex0/NetworkClientV0.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex1/MainV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex1/MainV1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex1/NetworkClientV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex1/NetworkClientV1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex1/NetworkServiceV1_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex1/NetworkServiceV1_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex1/NetworkServiceV1_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex1/NetworkServiceV1_3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex2/MainV2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex2/MainV2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex2/NetworkClientV2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex2/NetworkClientV2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex2/NetworkServiceV2_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex2/NetworkServiceV2_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex2/NetworkServiceV2_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex2/NetworkServiceV2_3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex2/NetworkServiceV2_4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex2/NetworkServiceV2_4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex2/NetworkServiceV2_5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex2/NetworkServiceV2_5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex3/MainV3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex3/MainV3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex3/NetworkClientV3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex3/NetworkClientV3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex3/NetworkServiceV3_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex3/NetworkServiceV3_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex3/NetworkServiceV3_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex3/NetworkServiceV3_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex4/MainV4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex4/MainV4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex4/NetworkClientV4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex4/NetworkClientV4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex4/NetworkClientV5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex4/NetworkClientV5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex4/NetworkServiceV5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/exception/ex4/NetworkServiceV5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/immutable/address/MemberMainV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/immutable/address/MemberMainV1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/immutable/address/MemberMainV2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/immutable/address/MemberMainV2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/immutable/address/RefMain1_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/immutable/address/RefMain1_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/immutable/address/RefMain1_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/immutable/address/RefMain1_2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/immutable/address/RefMain1_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/immutable/address/RefMain1_3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/immutable/address/RefMain2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/immutable/address/RefMain2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/math/test/LottoGeneratorMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/math/test/LottoGeneratorMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/object/poly/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/object/poly/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/object/poly/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/object/poly/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/object/poly/ObjectPolyExample2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/object/poly/ObjectPolyExample2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/object/tostring/ObjectPrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/object/tostring/ObjectPrinter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/object/tostring/ToStringMain2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/object/tostring/ToStringMain2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/string/equals/StringEqualsMain1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/string/equals/StringEqualsMain1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/string/equals/StringEqualsMain2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/string/equals/StringEqualsMain2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/string/method/StringChangeMain1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/string/method/StringChangeMain1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/string/method/StringChangeMain2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/string/method/StringChangeMain2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/string/method/StringInfoMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/string/method/StringInfoMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/string/method/StringSearchMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/string/method/StringSearchMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/string/method/StringSplitJoinMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/string/method/StringSplitJoinMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/string/method/StringUtilsMain1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/string/method/StringUtilsMain1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/string/method/StringUtilsMain2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/string/method/StringUtilsMain2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/wrapper/WrapperClassMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/wrapper/WrapperClassMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/wrapper/WrapperVsPrimitive.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/wrapper/WrapperVsPrimitive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/wrapper/test/WrapperTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/lang/wrapper/test/WrapperTest1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/anonymous/ex/Ex0Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/anonymous/ex/Ex0Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/anonymous/ex/Ex0RefMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/anonymous/ex/Ex0RefMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/anonymous/ex/Ex1Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/anonymous/ex/Ex1Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/anonymous/ex/Ex1RefMainV1$Dice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/anonymous/ex/Ex1RefMainV1$Dice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/anonymous/ex/Ex1RefMainV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/anonymous/ex/Ex1RefMainV1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/anonymous/ex/Ex1RefMainV2$1Dice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/anonymous/ex/Ex1RefMainV2$1Dice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/anonymous/ex/Ex1RefMainV2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/anonymous/ex/Ex1RefMainV2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/anonymous/ex/Ex1RefMainV3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/anonymous/ex/Ex1RefMainV3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/anonymous/ex/Ex1RefMainV3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/anonymous/ex/Ex1RefMainV3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/anonymous/ex/Ex1RefMainV4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/anonymous/ex/Ex1RefMainV4$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/anonymous/ex/Ex1RefMainV4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/anonymous/ex/Ex1RefMainV4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/anonymous/ex/Ex1RefMainV5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/anonymous/ex/Ex1RefMainV5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/inner/ex1/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/inner/ex1/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/inner/ex1/Engine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/inner/ex1/Engine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/inner/ex2/Car$Engine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/inner/ex2/Car$Engine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/inner/ex2/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/inner/ex2/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/local/LocalOuterV3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/local/LocalOuterV3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/local/LocalOuterV4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/local/LocalOuterV4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/test/ex1/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/test/ex1/Library.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/test/ex1/LibraryMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/nested/test/ex1/LibraryMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/time/ChangeTimeWithMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/time/ChangeTimeWithMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/time/DurationMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/time/DurationMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/time/FormattingMain1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/time/FormattingMain1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/time/FormattingMain2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/time/FormattingMain2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/time/GetTimeMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/time/GetTimeMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/time/LocalDateMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/time/LocalDateMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/time/LocalDateTimeMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/time/LocalDateTimeMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/time/LocalTimeMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/time/LocalTimeMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/time/PeriodMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/time/PeriodMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/time/test/TestBetween.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/time/test/TestBetween.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/time/test/TestCalendarPrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/time/test/TestCalendarPrinter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/time/test/TestLoopPlus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/time/test/TestLoopPlus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/time/test/TestPlus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/time/test/TestPlus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/time/test/TestZone.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/exSourceCode/time/test/TestZone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/lang/object/poly/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/lang/object/poly/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/lang/object/poly/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/lang/object/poly/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/lang/object/poly/ObjectPolyExample2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/lang/object/poly/ObjectPolyExample2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/lang/object/test/RactangleMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/lang/object/test/RactangleMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/lang/object/tostring/ObjectPrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/lang/object/tostring/ObjectPrinter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/lang/object/tostring/ToStringMain2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/lang/object/tostring/ToStringMain2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +169,10 @@
     "Application.EqualsMainV2.executor": "Run",
     "Application.ObjectMain.executor": "Run",
     "Application.ObjectPolyExample1.executor": "Run",
-    "Application.RactangleMain.executor": "Debug",
+    "Application.Primitivemain.executor": "Run",
+    "Application.RactangleMain.executor": "Run",
+    "Application.RefMain1_1.executor": "Run",
+    "Application.RefMain1_2.executor": "Run",
     "Application.ToStringMain1.executor": "Run",
     "Application.ToStringMain2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -72,7 +187,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "Console",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -81,10 +196,11 @@
       <recent name="C:\Users\send2\IdeaProjects\java-Intermediate" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="src.sourceCode.lang.immutable.address" />
       <recent name="src.sourceCode.lang.object.equals" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RactangleMain">
+  <component name="RunManager" selected="Application.RefMain1_2">
     <configuration name="EqualsMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.object.equals.EqualsMainV2" />
       <module name="java-Intermediate" />
@@ -111,12 +227,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RactangleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.object.test.RactangleMain" />
+    <configuration name="Primitivemain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.immutable.address.Primitivemain" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.lang.object.test.*" />
+          <option name="PATTERN" value="src.sourceCode.lang.immutable.address.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +240,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToStringMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.object.tostring.ToStringMain1" />
+    <configuration name="RefMain1_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.immutable.address.RefMain1_1" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.lang.object.tostring.*" />
+          <option name="PATTERN" value="src.sourceCode.lang.immutable.address.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +253,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToStringMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.object.tostring.ToStringMain2" />
+    <configuration name="RefMain1_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.immutable.address.RefMain1_2" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.lang.object.tostring.*" />
+          <option name="PATTERN" value="src.sourceCode.lang.immutable.address.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,19 +267,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Primitivemain" />
+      <item itemvalue="Application.RefMain1_1" />
+      <item itemvalue="Application.RefMain1_2" />
       <item itemvalue="Application.EqualsMainV2" />
-      <item itemvalue="Application.RactangleMain" />
-      <item itemvalue="Application.ToStringMain1" />
-      <item itemvalue="Application.ToStringMain2" />
       <item itemvalue="Application.ObjectPolyExample1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RactangleMain" />
-        <item itemvalue="Application.EqualsMainV2" />
-        <item itemvalue="Application.ToStringMain2" />
-        <item itemvalue="Application.ToStringMain1" />
+        <item itemvalue="Application.RefMain1_2" />
+        <item itemvalue="Application.RefMain1_1" />
+        <item itemvalue="Application.Primitivemain" />
         <item itemvalue="Application.ObjectPolyExample1" />
+        <item itemvalue="Application.EqualsMainV2" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +308,9 @@
       <workItem from="1736744191361" duration="1657000" />
       <workItem from="1736745897445" duration="133000" />
       <workItem from="1736746101106" duration="177000" />
-      <workItem from="1736746300543" duration="7570000" />
+      <workItem from="1736746300543" duration="10852000" />
+      <workItem from="1736765305078" duration="2828000" />
+      <workItem from="1736846384335" duration="3273000" />
     </task>
     <task id="LOCAL-00001" summary="feat : 김영한 자바 중급(깃 테스트)">
       <option name="closed" value="true" />
@@ -242,7 +360,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736752112455</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat : 김영한 자바 중급(Object 클래스, equals 비교 문제풀이)">
+      <option name="closed" value="true" />
+      <created>1736754629351</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1736754629351</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +380,8 @@
     <MESSAGE value="feat : 김영한 자바 중급(Object 클래스)" />
     <MESSAGE value="feat : 김영한 자바 중급(Object 클래스, toString 오버라이드)" />
     <MESSAGE value="feat : 김영한 자바 중급(Object 클래스, equals 비교)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(Object 클래스, equals 비교)" />
+    <MESSAGE value="feat : 김영한 자바 중급(Object 클래스, equals 비교 문제풀이)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(Object 클래스, equals 비교 문제풀이)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
