@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(불변 객체 - 값 변경)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/immutable/test/ImmutableMyDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/immutable/test/ImmutableMyDateMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/immutable/test/MyDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/immutable/test/MyDateMain.java" afterDir="false" />
+    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(불변 객체 - 문제풀이)">
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/string/CharArrayMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/string/StringBasicMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/string/StringConcatMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/string/equals/StringEqualsMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/string/equals/StringEqualsMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/string/immutable/StringImmutable1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/string/immutable/StringImmutable2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +61,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CharArrayMain.executor": "Run",
     "Application.EqualsMainV2.executor": "Run",
     "Application.ImmutableMain1.executor": "Run",
     "Application.ImmutableMyDateMain.executor": "Run",
@@ -71,6 +75,12 @@
     "Application.RefMain1_2.executor": "Run",
     "Application.RefMain1_3.executor": "Run",
     "Application.RefMain2.executor": "Run",
+    "Application.StringBasicMain.executor": "Run",
+    "Application.StringConcatMain.executor": "Run",
+    "Application.StringEqualsMain1.executor": "Run",
+    "Application.StringEqualsMain2.executor": "Run",
+    "Application.StringImmutable1.executor": "Run",
+    "Application.StringImmutable2.executor": "Run",
     "Application.ToStringMain1.executor": "Run",
     "Application.ToStringMain2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -94,17 +104,19 @@
       <recent name="C:\Users\send2\IdeaProjects\java-Intermediate" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="src.sourceCode.lang.string.immutable" />
+      <recent name="src.sourceCode.lang.string.equals" />
       <recent name="src.sourceCode.lang.immutable.address" />
       <recent name="src.sourceCode.lang.object.equals" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ImmutableMyDateMain">
-    <configuration name="ImmutableMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.immutable.change.ImmutableMain1" />
+  <component name="RunManager" selected="Application.StringImmutable2">
+    <configuration name="StringConcatMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.string.StringConcatMain" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.lang.immutable.change.*" />
+          <option name="PATTERN" value="src.sourceCode.lang.string.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImmutableMyDateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.immutable.test.ImmutableMyDateMain" />
+    <configuration name="StringEqualsMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.string.equals.StringEqualsMain1" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.lang.immutable.test.*" />
+          <option name="PATTERN" value="src.sourceCode.lang.string.equals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemberMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.immutable.address.MemberMainV1" />
+    <configuration name="StringEqualsMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.string.equals.StringEqualsMain2" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.lang.immutable.address.*" />
+          <option name="PATTERN" value="src.sourceCode.lang.string.equals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MutableMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.immutable.change.MutableMain" />
+    <configuration name="StringImmutable1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.string.immutable.StringImmutable1" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.lang.immutable.change.*" />
+          <option name="PATTERN" value="src.sourceCode.lang.string.immutable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RefMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.immutable.address.RefMain2" />
+    <configuration name="StringImmutable2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.string.immutable.StringImmutable2" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.lang.immutable.address.*" />
+          <option name="PATTERN" value="src.sourceCode.lang.string.immutable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,19 +177,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ImmutableMain1" />
-      <item itemvalue="Application.ImmutableMyDateMain" />
-      <item itemvalue="Application.MutableMain" />
-      <item itemvalue="Application.MemberMainV1" />
-      <item itemvalue="Application.RefMain2" />
+      <item itemvalue="Application.StringConcatMain" />
+      <item itemvalue="Application.StringEqualsMain1" />
+      <item itemvalue="Application.StringEqualsMain2" />
+      <item itemvalue="Application.StringImmutable1" />
+      <item itemvalue="Application.StringImmutable2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ImmutableMyDateMain" />
-        <item itemvalue="Application.ImmutableMain1" />
-        <item itemvalue="Application.MutableMain" />
-        <item itemvalue="Application.MemberMainV1" />
-        <item itemvalue="Application.RefMain2" />
+        <item itemvalue="Application.StringImmutable2" />
+        <item itemvalue="Application.StringImmutable1" />
+        <item itemvalue="Application.StringEqualsMain2" />
+        <item itemvalue="Application.StringEqualsMain1" />
+        <item itemvalue="Application.StringConcatMain" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +223,7 @@
       <workItem from="1736846384335" duration="5432000" />
       <workItem from="1736854564135" duration="647000" />
       <workItem from="1736859846817" duration="1677000" />
-      <workItem from="1737008924259" duration="3843000" />
+      <workItem from="1737008924259" duration="7375000" />
     </task>
     <task id="LOCAL-00001" summary="feat : 김영한 자바 중급(깃 테스트)">
       <option name="closed" value="true" />
@@ -301,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737010601396</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat : 김영한 자바 중급(불변 객체 - 문제풀이)">
+      <option name="closed" value="true" />
+      <created>1737013115762</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1737013115762</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +338,8 @@
     <MESSAGE value="feat : 김영한 자바 중급(불변 객체 도입)" />
     <MESSAGE value="feat : 김영한 자바 중급(불변 객체 예제)" />
     <MESSAGE value="feat : 김영한 자바 중급(불변 객체 - 값 변경)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(불변 객체 - 값 변경)" />
+    <MESSAGE value="feat : 김영한 자바 중급(불변 객체 - 문제풀이)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(불변 객체 - 문제풀이)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
