@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(불변 객체 예제)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/immutable/change/ImmutableMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/immutable/change/ImmutableObj.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/immutable/change/MutableMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/immutable/change/MutableObj.java" afterDir="false" />
+    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(불변 객체 - 값 변경)">
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/immutable/test/ImmutableMyDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/immutable/test/ImmutableMyDateMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/immutable/test/MyDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/immutable/test/MyDateMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +38,11 @@
     &quot;accountId&quot;: &quot;d779f0a9-f073-4358-b8fc-0472748c9507&quot;
   }
 }</component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -56,6 +59,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.EqualsMainV2.executor": "Run",
+    "Application.ImmutableMain1.executor": "Run",
+    "Application.ImmutableMyDateMain.executor": "Run",
     "Application.MemberMainV1.executor": "Run",
     "Application.MutableMain.executor": "Run",
     "Application.ObjectMain.executor": "Run",
@@ -93,13 +98,26 @@
       <recent name="src.sourceCode.lang.object.equals" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ImmutableMain1">
+  <component name="RunManager" selected="Application.ImmutableMyDateMain">
     <configuration name="ImmutableMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.immutable.change.ImmutableMain1" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.sourceCode.lang.immutable.change.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImmutableMyDateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.immutable.test.ImmutableMyDateMain" />
+      <module name="java-Intermediate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.sourceCode.lang.immutable.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,19 +151,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RefMain1_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.immutable.address.RefMain1_3" />
-      <module name="java-Intermediate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.sourceCode.lang.immutable.address.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RefMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.immutable.address.RefMain2" />
       <module name="java-Intermediate" />
@@ -161,18 +166,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ImmutableMain1" />
+      <item itemvalue="Application.ImmutableMyDateMain" />
       <item itemvalue="Application.MutableMain" />
       <item itemvalue="Application.MemberMainV1" />
-      <item itemvalue="Application.RefMain1_3" />
       <item itemvalue="Application.RefMain2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ImmutableMyDateMain" />
         <item itemvalue="Application.ImmutableMain1" />
         <item itemvalue="Application.MutableMain" />
         <item itemvalue="Application.MemberMainV1" />
         <item itemvalue="Application.RefMain2" />
-        <item itemvalue="Application.RefMain1_3" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +211,7 @@
       <workItem from="1736846384335" duration="5432000" />
       <workItem from="1736854564135" duration="647000" />
       <workItem from="1736859846817" duration="1677000" />
-      <workItem from="1737008924259" duration="1145000" />
+      <workItem from="1737008924259" duration="3843000" />
     </task>
     <task id="LOCAL-00001" summary="feat : 김영한 자바 중급(깃 테스트)">
       <option name="closed" value="true" />
@@ -288,7 +293,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736852513131</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat : 김영한 자바 중급(불변 객체 - 값 변경)">
+      <option name="closed" value="true" />
+      <created>1737010601396</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1737010601396</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,7 +317,8 @@
     <MESSAGE value="feat : 김영한 자바 중급(불변 객체)" />
     <MESSAGE value="feat : 김영한 자바 중급(불변 객체 도입)" />
     <MESSAGE value="feat : 김영한 자바 중급(불변 객체 예제)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(불변 객체 예제)" />
+    <MESSAGE value="feat : 김영한 자바 중급(불변 객체 - 값 변경)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(불변 객체 - 값 변경)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
