@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(String 클래스)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/MyInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/MyIntegerMethodMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/MyIntegerMethodMain0.java" afterDir="false" />
+    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 기본형의 한계1)">
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/MyIntegerNullMain0.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +63,7 @@
     "Application.MethodChainingMain1.executor": "Run",
     "Application.MethodChainingMain2.executor": "Run",
     "Application.MutableMain.executor": "Run",
+    "Application.MyIntegerMethodMain.executor": "Debug",
     "Application.MyIntegerMethodMain0.executor": "Run",
     "Application.ObjectMain.executor": "Run",
     "Application.ObjectPolyExample1.executor": "Run",
@@ -112,7 +110,7 @@
       <recent name="src.sourceCode.lang.immutable.address" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyIntegerMethodMain0">
+  <component name="RunManager" selected="Application.MyIntegerMethodMain">
     <configuration name="MethodChainingMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.string.chaining.MethodChainingMain1" />
       <module name="java-Intermediate" />
@@ -132,6 +130,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.sourceCode.lang.string.chaining.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyIntegerMethodMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.wrapper.MyIntegerMethodMain" />
+      <module name="java-Intermediate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.sourceCode.lang.wrapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,33 +176,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringImmutable2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.string.immutable.StringImmutable2" />
-      <module name="java-Intermediate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.sourceCode.lang.string.immutable.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.MyIntegerMethodMain" />
       <item itemvalue="Application.MyIntegerMethodMain0" />
       <item itemvalue="Application.MethodChainingMain1" />
       <item itemvalue="Application.MethodChainingMain2" />
       <item itemvalue="Application.StringBuilderMain1_1" />
-      <item itemvalue="Application.StringImmutable2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyIntegerMethodMain" />
         <item itemvalue="Application.MyIntegerMethodMain0" />
         <item itemvalue="Application.MethodChainingMain2" />
         <item itemvalue="Application.MethodChainingMain1" />
         <item itemvalue="Application.StringBuilderMain1_1" />
-        <item itemvalue="Application.StringImmutable2" />
       </list>
     </recent_temporary>
   </component>
@@ -228,7 +226,7 @@
       <workItem from="1737008924259" duration="8239000" />
       <workItem from="1737021437853" duration="3515000" />
       <workItem from="1737089583737" duration="2212000" />
-      <workItem from="1737092843006" duration="2345000" />
+      <workItem from="1737092843006" duration="5698000" />
     </task>
     <task id="LOCAL-00001" summary="feat : 김영한 자바 중급(깃 테스트)">
       <option name="closed" value="true" />
@@ -350,7 +348,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737023929480</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 기본형의 한계1)">
+      <option name="closed" value="true" />
+      <created>1737097158635</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1737097158635</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,7 +377,8 @@
     <MESSAGE value="feat : 김영한 자바 중급(String 클래스 -&gt; String구조, String불변객체)" />
     <MESSAGE value="feat : 김영한 자바 중급(String 클래스 -&gt; String최적화)" />
     <MESSAGE value="feat : 김영한 자바 중급(String 클래스)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(String 클래스)" />
+    <MESSAGE value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 기본형의 한계1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 기본형의 한계1)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
