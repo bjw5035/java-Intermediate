@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(Class 클래스 )">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/clzz/SystemMain.java" afterDir="false" />
+    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(System 클래스 )">
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/clzz/MathMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/clzz/RandomMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -228,7 +229,7 @@
       <workItem from="1737008924259" duration="8239000" />
       <workItem from="1737021437853" duration="3515000" />
       <workItem from="1737089583737" duration="2212000" />
-      <workItem from="1737092843006" duration="11624000" />
+      <workItem from="1737092843006" duration="11965000" />
     </task>
     <task id="LOCAL-00001" summary="feat : 김영한 자바 중급(깃 테스트)">
       <option name="closed" value="true" />
@@ -406,7 +407,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737106482143</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="feat : 김영한 자바 중급(System 클래스 )">
+      <option name="closed" value="true" />
+      <created>1737109113274</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1737109113274</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,7 +442,8 @@
     <MESSAGE value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 오토박싱,언박싱)" />
     <MESSAGE value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 성능)" />
     <MESSAGE value="feat : 김영한 자바 중급(Class 클래스 )" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(Class 클래스 )" />
+    <MESSAGE value="feat : 김영한 자바 중급(System 클래스 )" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(System 클래스 )" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
