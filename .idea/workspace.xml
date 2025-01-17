@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 박싱)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/AutoboxingMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/AutoboxingMain2.java" afterDir="false" />
+    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 오토박싱,언박싱)">
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/WrapperUtilsMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/WrapperVsPrimitive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -228,7 +228,7 @@
       <workItem from="1737008924259" duration="8239000" />
       <workItem from="1737021437853" duration="3515000" />
       <workItem from="1737089583737" duration="2212000" />
-      <workItem from="1737092843006" duration="7129000" />
+      <workItem from="1737092843006" duration="8475000" />
     </task>
     <task id="LOCAL-00001" summary="feat : 김영한 자바 중급(깃 테스트)">
       <option name="closed" value="true" />
@@ -374,7 +374,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737103192753</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 오토박싱,언박싱)">
+      <option name="closed" value="true" />
+      <created>1737103843743</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1737103843743</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,7 +406,8 @@
     <MESSAGE value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 기본형의 한계1)" />
     <MESSAGE value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 기본형의 한계2)" />
     <MESSAGE value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 박싱)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 박싱)" />
+    <MESSAGE value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 오토박싱,언박싱)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 오토박싱,언박싱)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
