@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(Math와 Random클래스 - 로또번호 자동생성기)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ex0/DiscountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ex0/StringGradeEx0_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ex0/StringGradeEx0_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ex1/DiscountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ex1/StringGrade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ex1/StringGradeEx1_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ex1/StringGradeEx1_2.java" afterDir="false" />
+    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(열거형 ENUM)">
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ex2/ClassGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ex2/ClassGradeEx2_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ex2/ClassGradeEx2_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ex2/ClassRefMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ex2/DiscountService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +62,7 @@
     "Application.AutoboxingMain1.executor": "Run",
     "Application.CharArrayMain.executor": "Run",
     "Application.ClassMetaMain.executor": "Run",
+    "Application.ClassRefMain.executor": "Run",
     "Application.EqualsMainV2.executor": "Run",
     "Application.ImmutableMain1.executor": "Run",
     "Application.ImmutableMyDateMain.executor": "Run",
@@ -121,13 +120,13 @@
       <recent name="src.sourceCode.lang.string.chaining" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LottoGeneratorMain">
-    <configuration name="AutoboxingMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.wrapper.AutoboxingMain1" />
+  <component name="RunManager" selected="Application.ClassRefMain">
+    <configuration name="ClassMetaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.clzz.ClassMetaMain" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.lang.wrapper.*" />
+          <option name="PATTERN" value="src.sourceCode.lang.math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +134,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassMetaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.clzz.ClassMetaMain" />
+    <configuration name="ClassRefMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.enumeration.ex2.ClassRefMain" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.lang.math.*" />
+          <option name="PATTERN" value="src.sourceCode.enumeration.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,19 +187,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ClassRefMain" />
       <item itemvalue="Application.LottoGeneratorMain" />
-      <item itemvalue="Application.AutoboxingMain1" />
       <item itemvalue="Application.ClassMetaMain" />
       <item itemvalue="Application.WrapperTest1" />
       <item itemvalue="Application.WrapperTest2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClassRefMain" />
         <item itemvalue="Application.LottoGeneratorMain" />
         <item itemvalue="Application.WrapperTest2" />
         <item itemvalue="Application.WrapperTest1" />
         <item itemvalue="Application.ClassMetaMain" />
-        <item itemvalue="Application.AutoboxingMain1" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +238,7 @@
       <workItem from="1737089583737" duration="2212000" />
       <workItem from="1737092843006" duration="12339000" />
       <workItem from="1737112971253" duration="1618000" />
-      <workItem from="1737165306271" duration="5488000" />
+      <workItem from="1737165306271" duration="8650000" />
     </task>
     <task id="LOCAL-00001" summary="feat : 김영한 자바 중급(깃 테스트)">
       <option name="closed" value="true" />
@@ -449,7 +448,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737179624261</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="feat : 김영한 자바 중급(열거형 ENUM)">
+      <option name="closed" value="true" />
+      <created>1737180962947</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1737180962947</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,7 +487,8 @@
     <MESSAGE value="feat : 김영한 자바 중급(Math와 Random클래스 )" />
     <MESSAGE value="feat : 김영한 자바 중급(Math와 Random클래스 - 문제풀이1)" />
     <MESSAGE value="feat : 김영한 자바 중급(Math와 Random클래스 - 로또번호 자동생성기)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(Math와 Random클래스 - 로또번호 자동생성기)" />
+    <MESSAGE value="feat : 김영한 자바 중급(열거형 ENUM)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(열거형 ENUM)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
