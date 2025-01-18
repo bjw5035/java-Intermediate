@@ -1,4 +1,4 @@
-package src.sourceCode.lang.clzz;
+package src.sourceCode.lang.math;
 
 public class MathMain {
     public static void main(String[] args) {

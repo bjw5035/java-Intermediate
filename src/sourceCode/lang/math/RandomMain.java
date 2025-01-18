@@ -1,4 +1,4 @@
-package src.sourceCode.lang.clzz;
+package src.sourceCode.lang.math;
 
 import java.util.Random;
 

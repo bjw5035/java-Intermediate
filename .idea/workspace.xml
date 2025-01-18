@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(Math와 Random클래스 )">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/test/WrapperTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/test/WrapperTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/test/WrapperTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/test/WrapperTest4.java" afterDir="false" />
+    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(Math와 Random클래스 - 문제풀이1)">
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/math/test/LottoGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/math/test/LottoGeneratorMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/lang/clzz/ClassMetaMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/lang/clzz/ClassMetaMain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/lang/clzz/MathMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/lang/clzz/RandomMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/clzz/MathMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/lang/math/MathMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/clzz/RandomMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/lang/math/RandomMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,55 +59,56 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AutoboxingMain1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CharArrayMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ClassMetaMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EqualsMainV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ImmutableMain1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ImmutableMyDateMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MemberMainV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MethodChainingMain1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MethodChainingMain2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MutableMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyIntegerMethodMain.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MyIntegerMethodMain0.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ObjectMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ObjectPolyExample1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Primitivemain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RactangleMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RefMain1_1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RefMain1_2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RefMain1_3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RefMain2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringBasicMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringBuilderMain1_1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringConcatMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringEqualsMain1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringEqualsMain2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringImmutable1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringImmutable2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ToStringMain1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ToStringMain2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WrapperTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WrapperTest2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/send2/IdeaProjects/java-Intermediate&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Console&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AutoboxingMain1.executor": "Run",
+    "Application.CharArrayMain.executor": "Run",
+    "Application.ClassMetaMain.executor": "Run",
+    "Application.EqualsMainV2.executor": "Run",
+    "Application.ImmutableMain1.executor": "Run",
+    "Application.ImmutableMyDateMain.executor": "Run",
+    "Application.LottoGeneratorMain.executor": "Run",
+    "Application.MemberMainV1.executor": "Run",
+    "Application.MethodChainingMain1.executor": "Run",
+    "Application.MethodChainingMain2.executor": "Run",
+    "Application.MutableMain.executor": "Run",
+    "Application.MyIntegerMethodMain.executor": "Debug",
+    "Application.MyIntegerMethodMain0.executor": "Run",
+    "Application.ObjectMain.executor": "Run",
+    "Application.ObjectPolyExample1.executor": "Run",
+    "Application.Primitivemain.executor": "Run",
+    "Application.RactangleMain.executor": "Run",
+    "Application.RefMain1_1.executor": "Run",
+    "Application.RefMain1_2.executor": "Run",
+    "Application.RefMain1_3.executor": "Run",
+    "Application.RefMain2.executor": "Run",
+    "Application.StringBasicMain.executor": "Run",
+    "Application.StringBuilderMain1_1.executor": "Run",
+    "Application.StringConcatMain.executor": "Run",
+    "Application.StringEqualsMain1.executor": "Run",
+    "Application.StringEqualsMain2.executor": "Run",
+    "Application.StringImmutable1.executor": "Run",
+    "Application.StringImmutable2.executor": "Run",
+    "Application.ToStringMain1.executor": "Run",
+    "Application.ToStringMain2.executor": "Run",
+    "Application.WrapperTest1.executor": "Run",
+    "Application.WrapperTest2.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore_missing_gitignore": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/send2/IdeaProjects/java-Intermediate",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.CodeGlance Pro",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\send2\IdeaProjects\java-Intermediate" />
@@ -118,7 +121,7 @@
       <recent name="src.sourceCode.lang.string.immutable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WrapperTest2">
+  <component name="RunManager" selected="Application.LottoGeneratorMain">
     <configuration name="AutoboxingMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.wrapper.AutoboxingMain1" />
       <module name="java-Intermediate" />
@@ -137,7 +140,7 @@
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.lang.clzz.*" />
+          <option name="PATTERN" value="src.sourceCode.lang.math.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyIntegerMethodMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.wrapper.MyIntegerMethodMain" />
+    <configuration name="LottoGeneratorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.math.test.LottoGeneratorMain" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.lang.wrapper.*" />
+          <option name="PATTERN" value="src.sourceCode.lang.math.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -185,19 +188,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.LottoGeneratorMain" />
       <item itemvalue="Application.AutoboxingMain1" />
       <item itemvalue="Application.ClassMetaMain" />
-      <item itemvalue="Application.MyIntegerMethodMain" />
       <item itemvalue="Application.WrapperTest1" />
       <item itemvalue="Application.WrapperTest2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LottoGeneratorMain" />
         <item itemvalue="Application.WrapperTest2" />
         <item itemvalue="Application.WrapperTest1" />
         <item itemvalue="Application.ClassMetaMain" />
         <item itemvalue="Application.AutoboxingMain1" />
-        <item itemvalue="Application.MyIntegerMethodMain" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +239,7 @@
       <workItem from="1737089583737" duration="2212000" />
       <workItem from="1737092843006" duration="12339000" />
       <workItem from="1737112971253" duration="1618000" />
-      <workItem from="1737165306271" duration="3182000" />
+      <workItem from="1737165306271" duration="4140000" />
     </task>
     <task id="LOCAL-00001" summary="feat : 김영한 자바 중급(깃 테스트)">
       <option name="closed" value="true" />
@@ -430,7 +433,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737109433605</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="feat : 김영한 자바 중급(Math와 Random클래스 - 문제풀이1)">
+      <option name="closed" value="true" />
+      <created>1737178721553</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1737178721553</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -459,7 +470,8 @@
     <MESSAGE value="feat : 김영한 자바 중급(Class 클래스 )" />
     <MESSAGE value="feat : 김영한 자바 중급(System 클래스 )" />
     <MESSAGE value="feat : 김영한 자바 중급(Math와 Random클래스 )" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(Math와 Random클래스 )" />
+    <MESSAGE value="feat : 김영한 자바 중급(Math와 Random클래스 - 문제풀이1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(Math와 Random클래스 - 문제풀이1)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
