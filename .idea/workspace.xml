@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(Math와 Random클래스 - 문제풀이1)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/math/test/LottoGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/lang/math/test/LottoGeneratorMain.java" afterDir="false" />
+    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(Math와 Random클래스 - 로또번호 자동생성기)">
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ex0/DiscountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ex0/StringGradeEx0_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ex0/StringGradeEx0_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ex1/DiscountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ex1/StringGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ex1/StringGradeEx1_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ex1/StringGradeEx1_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/lang/clzz/MathMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/lang/clzz/RandomMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/clzz/MathMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/lang/math/MathMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/clzz/RandomMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/lang/math/RandomMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,11 +114,11 @@
       <recent name="C:\Users\send2\IdeaProjects\java-Intermediate" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="src.sourceCode.enumeration.ex0" />
       <recent name="src.sourceCode.lang.wrapper.test" />
       <recent name="src.sourceCode.lang.wrapper" />
       <recent name="src.sourceCode.lang.string.builder" />
       <recent name="src.sourceCode.lang.string.chaining" />
-      <recent name="src.sourceCode.lang.string.immutable" />
     </key>
   </component>
   <component name="RunManager" selected="Application.LottoGeneratorMain">
@@ -239,7 +239,7 @@
       <workItem from="1737089583737" duration="2212000" />
       <workItem from="1737092843006" duration="12339000" />
       <workItem from="1737112971253" duration="1618000" />
-      <workItem from="1737165306271" duration="4140000" />
+      <workItem from="1737165306271" duration="5488000" />
     </task>
     <task id="LOCAL-00001" summary="feat : 김영한 자바 중급(깃 테스트)">
       <option name="closed" value="true" />
@@ -441,7 +441,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737178721553</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="feat : 김영한 자바 중급(Math와 Random클래스 - 로또번호 자동생성기)">
+      <option name="closed" value="true" />
+      <created>1737179624261</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1737179624261</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,7 +479,8 @@
     <MESSAGE value="feat : 김영한 자바 중급(System 클래스 )" />
     <MESSAGE value="feat : 김영한 자바 중급(Math와 Random클래스 )" />
     <MESSAGE value="feat : 김영한 자바 중급(Math와 Random클래스 - 문제풀이1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(Math와 Random클래스 - 문제풀이1)" />
+    <MESSAGE value="feat : 김영한 자바 중급(Math와 Random클래스 - 로또번호 자동생성기)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(Math와 Random클래스 - 로또번호 자동생성기)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
