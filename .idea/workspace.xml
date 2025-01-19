@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(열거형 ENUM 리팩토링3)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/test/AuthGrade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/test/AuthGradeMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/test/AuthGradeMain2.java" afterDir="false" />
+    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(열거형 ENUM - 문제풀이1)">
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/test/http/HttpStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/test/http/HttpStatusMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -240,7 +239,7 @@
       <workItem from="1737112971253" duration="1618000" />
       <workItem from="1737165306271" duration="8873000" />
       <workItem from="1737258844727" duration="605000" />
-      <workItem from="1737264982000" duration="7165000" />
+      <workItem from="1737264982000" duration="7880000" />
     </task>
     <task id="LOCAL-00001" summary="feat : 김영한 자바 중급(깃 테스트)">
       <option name="closed" value="true" />
@@ -506,7 +505,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737272007852</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="feat : 김영한 자바 중급(열거형 ENUM - 문제풀이1)">
+      <option name="closed" value="true" />
+      <created>1737273383733</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1737273383733</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,7 +531,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat : 김영한 자바 중급(Object 클래스, toString 오버라이드)" />
     <MESSAGE value="feat : 김영한 자바 중급(Object 클래스, equals 비교)" />
     <MESSAGE value="feat : 김영한 자바 중급(Object 클래스, equals 비교 문제풀이)" />
     <MESSAGE value="feat : 김영한 자바 중급(불변 객체)" />
@@ -549,7 +555,8 @@
     <MESSAGE value="feat : 김영한 자바 중급(열거형 ENUM 리팩토링)" />
     <MESSAGE value="feat : 김영한 자바 중급(열거형 ENUM 리팩토링2)" />
     <MESSAGE value="feat : 김영한 자바 중급(열거형 ENUM 리팩토링3)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(열거형 ENUM 리팩토링3)" />
+    <MESSAGE value="feat : 김영한 자바 중급(열거형 ENUM - 문제풀이1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(열거형 ENUM - 문제풀이1)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
