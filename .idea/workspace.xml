@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(열거형 ENUM)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ex2/ClassGrade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ex2/ClassGradeEx2_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ex2/ClassGradeEx2_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ex2/ClassRefMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ex2/DiscountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ex3/DiscountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ex3/EnumEx3_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ex3/EnumEx3_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ex3/EnumRefMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ex3/Grade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -57,67 +58,67 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AutoboxingMain1.executor": "Run",
-    "Application.CharArrayMain.executor": "Run",
-    "Application.ClassMetaMain.executor": "Run",
-    "Application.ClassRefMain.executor": "Run",
-    "Application.EqualsMainV2.executor": "Run",
-    "Application.ImmutableMain1.executor": "Run",
-    "Application.ImmutableMyDateMain.executor": "Run",
-    "Application.LottoGeneratorMain.executor": "Run",
-    "Application.MemberMainV1.executor": "Run",
-    "Application.MethodChainingMain1.executor": "Run",
-    "Application.MethodChainingMain2.executor": "Run",
-    "Application.MutableMain.executor": "Run",
-    "Application.MyIntegerMethodMain.executor": "Debug",
-    "Application.MyIntegerMethodMain0.executor": "Run",
-    "Application.ObjectMain.executor": "Run",
-    "Application.ObjectPolyExample1.executor": "Run",
-    "Application.Primitivemain.executor": "Run",
-    "Application.RactangleMain.executor": "Run",
-    "Application.RefMain1_1.executor": "Run",
-    "Application.RefMain1_2.executor": "Run",
-    "Application.RefMain1_3.executor": "Run",
-    "Application.RefMain2.executor": "Run",
-    "Application.StringBasicMain.executor": "Run",
-    "Application.StringBuilderMain1_1.executor": "Run",
-    "Application.StringConcatMain.executor": "Run",
-    "Application.StringEqualsMain1.executor": "Run",
-    "Application.StringEqualsMain2.executor": "Run",
-    "Application.StringImmutable1.executor": "Run",
-    "Application.StringImmutable2.executor": "Run",
-    "Application.ToStringMain1.executor": "Run",
-    "Application.ToStringMain2.executor": "Run",
-    "Application.WrapperTest1.executor": "Run",
-    "Application.WrapperTest2.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore_missing_gitignore": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/send2/IdeaProjects/java-Intermediate",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.CodeGlance Pro",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AutoboxingMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CharArrayMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassMetaMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassRefMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EqualsMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImmutableMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImmutableMyDateMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LottoGeneratorMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MemberMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodChainingMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodChainingMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MutableMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyIntegerMethodMain.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MyIntegerMethodMain0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectPolyExample1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Primitivemain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RactangleMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RefMain1_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RefMain1_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RefMain1_3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RefMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringBasicMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringBuilderMain1_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringConcatMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringEqualsMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringEqualsMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringImmutable1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringImmutable2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ToStringMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ToStringMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WrapperTest1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WrapperTest2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/send2/IdeaProjects/java-Intermediate&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.CodeGlance Pro&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\send2\IdeaProjects\java-Intermediate" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="src.sourceCode.enumeration.ex3" />
       <recent name="src.sourceCode.enumeration.ex0" />
       <recent name="src.sourceCode.lang.wrapper.test" />
       <recent name="src.sourceCode.lang.wrapper" />
       <recent name="src.sourceCode.lang.string.builder" />
-      <recent name="src.sourceCode.lang.string.chaining" />
     </key>
   </component>
   <component name="RunManager" selected="Application.ClassRefMain">
@@ -238,7 +239,9 @@
       <workItem from="1737089583737" duration="2212000" />
       <workItem from="1737092843006" duration="12339000" />
       <workItem from="1737112971253" duration="1618000" />
-      <workItem from="1737165306271" duration="8650000" />
+      <workItem from="1737165306271" duration="8873000" />
+      <workItem from="1737258844727" duration="605000" />
+      <workItem from="1737264982000" duration="452000" />
     </task>
     <task id="LOCAL-00001" summary="feat : 김영한 자바 중급(깃 테스트)">
       <option name="closed" value="true" />
@@ -456,7 +459,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737180962947</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="feat : 김영한 자바 중급(열거형 ENUM)">
+      <option name="closed" value="true" />
+      <created>1737209764815</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1737209764815</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
