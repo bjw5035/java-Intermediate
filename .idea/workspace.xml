@@ -4,83 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(열거형 ENUM 리팩토링)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ref2/DiscountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ref2/EnumRefMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ref2/Grade.java" afterDir="false" />
+    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(열거형 ENUM 리팩토링3)">
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ref3/DiscountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ref3/EnumRefMain3_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ref3/EnumRefMain3_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ref3/EnumRefMain3_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ref3/Grade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/clzz/ClassCreateMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/clzz/ClassCreateMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/clzz/ClassMetaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/clzz/ClassMetaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/clzz/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/clzz/Hello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/clzz/SystemMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/clzz/SystemMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/immutable/address/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/ImmutableAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/immutable/address/ImmutableAddress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/MemberMainV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/immutable/address/MemberMainV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/MemberMainV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/immutable/address/MemberMainV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/MemberV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/immutable/address/MemberV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/MemberV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/immutable/address/MemberV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/Primitivemain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/immutable/address/Primitivemain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/RefMain1_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/immutable/address/RefMain1_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/RefMain1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/immutable/address/RefMain1_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/RefMain1_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/immutable/address/RefMain1_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/RefMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/immutable/address/RefMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/change/ImmutableMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/immutable/change/ImmutableMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/change/ImmutableObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/immutable/change/ImmutableObj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/change/MutableMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/immutable/change/MutableMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/change/MutableObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/immutable/change/MutableObj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/test/ImmutableMyDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/immutable/test/ImmutableMyDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/test/ImmutableMyDateMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/immutable/test/ImmutableMyDateMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/test/MyDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/immutable/test/MyDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/test/MyDateMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/immutable/test/MyDateMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/math/MathMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/math/MathMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/math/RandomMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/math/RandomMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/math/test/LottoGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/math/test/LottoGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/math/test/LottoGeneratorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/math/test/LottoGeneratorMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/object/Child.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/ObjectMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/object/ObjectMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/object/Parent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/equals/EqualsMainV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/object/equals/EqualsMainV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/equals/EqualsMainV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/object/equals/EqualsMainV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/equals/UserV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/object/equals/UserV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/equals/UserV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/object/equals/UserV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/poly/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/object/poly/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/poly/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/object/poly/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/poly/ObjectPolyExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/object/poly/ObjectPolyExample1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/poly/ObjectPolyExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/object/poly/ObjectPolyExample2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/test/ExRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/object/test/ExRectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/test/RactangleMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/object/test/RactangleMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/tostring/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/object/tostring/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/tostring/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/object/tostring/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/tostring/ObjectPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/object/tostring/ObjectPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/tostring/ToStringMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/object/tostring/ToStringMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/tostring/ToStringMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/object/tostring/ToStringMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/string/CharArrayMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/string/CharArrayMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/string/StringBasicMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/string/StringBasicMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/string/StringConcatMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/string/StringConcatMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/string/builder/LoopStringMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/string/builder/LoopStringMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/string/builder/StringBuilderMain1_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/string/builder/StringBuilderMain1_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/string/builder/StringBuilderMain1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/string/builder/StringBuilderMain1_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/string/chaining/MethodChainingMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/string/chaining/MethodChainingMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/string/chaining/MethodChainingMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/string/chaining/MethodChainingMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/string/chaining/MethodChainingMain3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/string/chaining/MethodChainingMain3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/string/chaining/ValueAdder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/string/chaining/ValueAdder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/string/equals/StringEqualsMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/string/equals/StringEqualsMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/string/equals/StringEqualsMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/string/equals/StringEqualsMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/string/immutable/StringImmutable1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/string/immutable/StringImmutable1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/string/immutable/StringImmutable2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/string/immutable/StringImmutable2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/AutoboxingMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/wrapper/AutoboxingMain1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/AutoboxingMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/wrapper/AutoboxingMain2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/MyInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/wrapper/MyInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/MyIntegerMethodMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/wrapper/MyIntegerMethodMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/MyIntegerMethodMain0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/wrapper/MyIntegerMethodMain0.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/MyIntegerNullMain0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/wrapper/MyIntegerNullMain0.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/WrapperClassMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/wrapper/WrapperClassMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/WrapperUtilsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/wrapper/WrapperUtilsMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/WrapperVsPrimitive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/wrapper/WrapperVsPrimitive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/test/WrapperTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/wrapper/test/WrapperTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/test/WrapperTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/wrapper/test/WrapperTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/test/WrapperTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/wrapper/test/WrapperTest3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/test/WrapperTest4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/lang/wrapper/test/WrapperTest4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,11 +114,11 @@
       <recent name="C:\Users\send2\IdeaProjects\java-Intermediate" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="src.sourceCode.enumeration.ref3" />
       <recent name="src.sourceCode.enumeration.ref2" />
       <recent name="src.sourceCode.enumeration.ref1" />
       <recent name="src.sourceCode.enumeration.ex3" />
       <recent name="src.sourceCode.enumeration.ex0" />
-      <recent name="src.sourceCode.lang.wrapper.test" />
     </key>
   </component>
   <component name="RunManager" selected="Application.ClassRefMain">
@@ -311,7 +241,7 @@
       <workItem from="1737112971253" duration="1618000" />
       <workItem from="1737165306271" duration="8873000" />
       <workItem from="1737258844727" duration="605000" />
-      <workItem from="1737264982000" duration="3210000" />
+      <workItem from="1737264982000" duration="5671000" />
     </task>
     <task id="LOCAL-00001" summary="feat : 김영한 자바 중급(깃 테스트)">
       <option name="closed" value="true" />
@@ -553,7 +483,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737267778458</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="feat : 김영한 자바 중급(열거형 ENUM 리팩토링2)">
+      <option name="closed" value="true" />
+      <created>1737268652509</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1737268652509</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -571,8 +509,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat : 김영한 자바 중급(패키지명 수정)" />
-    <MESSAGE value="feat : 김영한 자바 중급(Object 클래스)" />
     <MESSAGE value="feat : 김영한 자바 중급(Object 클래스, toString 오버라이드)" />
     <MESSAGE value="feat : 김영한 자바 중급(Object 클래스, equals 비교)" />
     <MESSAGE value="feat : 김영한 자바 중급(Object 클래스, equals 비교 문제풀이)" />
@@ -596,7 +532,9 @@
     <MESSAGE value="feat : 김영한 자바 중급(Math와 Random클래스 - 로또번호 자동생성기)" />
     <MESSAGE value="feat : 김영한 자바 중급(열거형 ENUM)" />
     <MESSAGE value="feat : 김영한 자바 중급(열거형 ENUM 리팩토링)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(열거형 ENUM 리팩토링)" />
+    <MESSAGE value="feat : 김영한 자바 중급(열거형 ENUM 리팩토링2)" />
+    <MESSAGE value="feat : 김영한 자바 중급(열거형 ENUM 리팩토링3)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(열거형 ENUM 리팩토링3)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
