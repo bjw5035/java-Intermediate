@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(열거형 ENUM 리팩토링3)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ref3/DiscountService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ref3/EnumRefMain3_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ref3/EnumRefMain3_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ref3/EnumRefMain3_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ref3/Grade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/enumeration/ref3/EnumRefMain3_4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,13 +116,13 @@
       <recent name="src.sourceCode.enumeration.ex0" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClassRefMain">
-    <configuration name="ClassMetaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.enumeration.lang.clzz.ClassMetaMain" />
+  <component name="RunManager" selected="Application.EnumRefMain3_4">
+    <configuration name="ClassRefMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.enumeration.ex2.ClassRefMain" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.enumeration.lang.math.*" />
+          <option name="PATTERN" value="src.sourceCode.enumeration.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClassRefMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.enumeration.ex2.ClassRefMain" />
+    <configuration name="EnumRefMain3_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.enumeration.ref3.EnumRefMain3_4" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.enumeration.ex2.*" />
+          <option name="PATTERN" value="src.sourceCode.enumeration.ref3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,19 +183,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.EnumRefMain3_4" />
       <item itemvalue="Application.ClassRefMain" />
       <item itemvalue="Application.LottoGeneratorMain" />
-      <item itemvalue="Application.ClassMetaMain" />
       <item itemvalue="Application.WrapperTest1" />
       <item itemvalue="Application.WrapperTest2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EnumRefMain3_4" />
         <item itemvalue="Application.ClassRefMain" />
         <item itemvalue="Application.LottoGeneratorMain" />
         <item itemvalue="Application.WrapperTest2" />
         <item itemvalue="Application.WrapperTest1" />
-        <item itemvalue="Application.ClassMetaMain" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +236,7 @@
       <workItem from="1737112971253" duration="1618000" />
       <workItem from="1737165306271" duration="8873000" />
       <workItem from="1737258844727" duration="605000" />
-      <workItem from="1737264982000" duration="5671000" />
+      <workItem from="1737264982000" duration="5761000" />
     </task>
     <task id="LOCAL-00001" summary="feat : 김영한 자바 중급(깃 테스트)">
       <option name="closed" value="true" />
@@ -491,7 +486,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737268652509</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="feat : 김영한 자바 중급(열거형 ENUM 리팩토링3)">
+      <option name="closed" value="true" />
+      <created>1737271859810</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1737271859810</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
