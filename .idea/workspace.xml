@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(정적 중첩 클래스 - 지역클래스 지역변수 캡처)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/anonymous/AnonymousOuter.java" afterDir="false" />
+    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(정적 중첩 클래스 - 익명클래스)">
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/anonymous/ex/Ex0Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/anonymous/ex/Ex0RefMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -249,7 +251,7 @@
       <workItem from="1737280315123" duration="3373000" />
       <workItem from="1737339595691" duration="4511000" />
       <workItem from="1737346776979" duration="7304000" />
-      <workItem from="1737355556968" duration="5133000" />
+      <workItem from="1737355556968" duration="6539000" />
     </task>
     <task id="LOCAL-00001" summary="feat : 김영한 자바 중급(깃 테스트)">
       <option name="closed" value="true" />
@@ -587,7 +589,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737359963370</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="feat : 김영한 자바 중급(정적 중첩 클래스 - 익명클래스)">
+      <option name="closed" value="true" />
+      <created>1737360825536</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1737360825536</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -605,7 +615,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat : 김영한 자바 중급(String 클래스 -&gt; String구조, String불변객체)" />
     <MESSAGE value="feat : 김영한 자바 중급(String 클래스 -&gt; String최적화)" />
     <MESSAGE value="feat : 김영한 자바 중급(String 클래스)" />
     <MESSAGE value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 기본형의 한계1)" />
@@ -630,7 +639,8 @@
     <MESSAGE value="feat : 김영한 자바 중급(정적 중첩 클래스 - 내부클래스 리팩토링, 같은이름 바깥변수 접근)" />
     <MESSAGE value="feat : 김영한 자바 중급(정적 중첩 클래스 - 지역클래스 예제)" />
     <MESSAGE value="feat : 김영한 자바 중급(정적 중첩 클래스 - 지역클래스 지역변수 캡처)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(정적 중첩 클래스 - 지역클래스 지역변수 캡처)" />
+    <MESSAGE value="feat : 김영한 자바 중급(정적 중첩 클래스 - 익명클래스)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(정적 중첩 클래스 - 익명클래스)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
