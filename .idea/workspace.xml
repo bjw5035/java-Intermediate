@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(정적 중첩 클래스 예제)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/nested/inner/InnerOuter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/nested/inner/InnerOuterMain.java" afterDir="false" />
+    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(정적 중첩 클래스 - 내부클래스)">
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/nested/inner/ShadowingMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/nested/inner/ex1/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/nested/inner/ex1/CarMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/nested/inner/ex1/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/nested/inner/ex2/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/nested/inner/ex2/CarMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +62,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AutoboxingMain1.executor": "Run",
+    "Application.CarMain.executor": "Run",
     "Application.CharArrayMain.executor": "Run",
     "Application.ClassMetaMain.executor": "Run",
     "Application.ClassRefMain.executor": "Run",
@@ -98,7 +103,7 @@
     "git-widget-placeholder": "main",
     "ignore_missing_gitignore": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/send2/IdeaProjects/java-Intermediate",
+    "last_opened_file_path": "C:/Users/send2/IdeaProjects/java-Intermediate/src/sourceCode/session8/nested/nested/inner/ex2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -110,6 +115,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\send2\IdeaProjects\java-Intermediate\src\sourceCode\session8\nested\nested\inner\ex2" />
       <recent name="C:\Users\send2\IdeaProjects\java-Intermediate" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -120,39 +126,13 @@
       <recent name="src.sourceCode.enumeration.ex3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NestedOuterMain">
-    <configuration name="ClassRefMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.enumeration.ex2.ClassRefMain" />
+  <component name="RunManager" selected="Application.ShadowingMain (2)">
+    <configuration name="CarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session8.nested.nested.inner.ex1.CarMain" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.enumeration.ex2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EnumRefMain3_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.enumeration.ref3.EnumRefMain3_4" />
-      <module name="java-Intermediate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.sourceCode.enumeration.ref3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LottoGeneratorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.math.test.LottoGeneratorMain" />
-      <module name="java-Intermediate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.sourceCode.lang.math.test.*" />
+          <option name="PATTERN" value="src.sourceCode.session8.nested.nested.inner.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,12 +153,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WrapperTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.lang.wrapper.test.WrapperTest2" />
+    <configuration name="ShadowingMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session8.nested.nested.inner.ShadowingMain" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.lang.wrapper.test.*" />
+          <option name="PATTERN" value="src.sourceCode.session8.nested.nested.inner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShadowingMain (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session8.nested.nested.inner.ShadowingMain" />
+      <module name="java-Intermediate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.sourceCode.session8.nested.nested.inner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShadowingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session8.nested.nested.inner.ShadowingMain" />
+      <module name="java-Intermediate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.sourceCode.session8.nested.nested.inner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,19 +193,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CarMain" />
       <item itemvalue="Application.NestedOuterMain" />
-      <item itemvalue="Application.EnumRefMain3_4" />
-      <item itemvalue="Application.ClassRefMain" />
-      <item itemvalue="Application.LottoGeneratorMain" />
-      <item itemvalue="Application.WrapperTest2" />
+      <item itemvalue="Application.ShadowingMain" />
+      <item itemvalue="Application.ShadowingMain (1)" />
+      <item itemvalue="Application.ShadowingMain (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShadowingMain (2)" />
+        <item itemvalue="Application.ShadowingMain (1)" />
+        <item itemvalue="Application.ShadowingMain" />
+        <item itemvalue="Application.CarMain" />
         <item itemvalue="Application.NestedOuterMain" />
-        <item itemvalue="Application.EnumRefMain3_4" />
-        <item itemvalue="Application.ClassRefMain" />
-        <item itemvalue="Application.LottoGeneratorMain" />
-        <item itemvalue="Application.WrapperTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +249,7 @@
       <workItem from="1737264982000" duration="8581000" />
       <workItem from="1737280315123" duration="3373000" />
       <workItem from="1737339595691" duration="4511000" />
-      <workItem from="1737346776979" duration="3076000" />
+      <workItem from="1737346776979" duration="5207000" />
     </task>
     <task id="LOCAL-00001" summary="feat : 김영한 자바 중급(깃 테스트)">
       <option name="closed" value="true" />
@@ -541,7 +547,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737348715083</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="feat : 김영한 자바 중급(정적 중첩 클래스 - 내부클래스)">
+      <option name="closed" value="true" />
+      <created>1737349906552</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1737349906552</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,7 +573,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat : 김영한 자바 중급(불변 객체 도입)" />
     <MESSAGE value="feat : 김영한 자바 중급(불변 객체 예제)" />
     <MESSAGE value="feat : 김영한 자바 중급(불변 객체 - 값 변경)" />
     <MESSAGE value="feat : 김영한 자바 중급(불변 객체 - 문제풀이)" />
@@ -584,7 +597,8 @@
     <MESSAGE value="feat : 김영한 자바 중급(열거형 ENUM - 문제풀이2)" />
     <MESSAGE value="feat : 김영한 자바 중급(정적 중첩 클래스)" />
     <MESSAGE value="feat : 김영한 자바 중급(정적 중첩 클래스 예제)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(정적 중첩 클래스 예제)" />
+    <MESSAGE value="feat : 김영한 자바 중급(정적 중첩 클래스 - 내부클래스)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(정적 중첩 클래스 - 내부클래스)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
