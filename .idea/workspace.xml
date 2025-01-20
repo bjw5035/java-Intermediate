@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(정적 중첩 클래스)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/nested/ex1/Network.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/nested/ex1/NetworkMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/nested/ex1/NetworkMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/nested/ex2/Network.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/nested/ex2/NetworkMain.java" afterDir="false" />
+    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(정적 중첩 클래스 예제)">
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/nested/inner/InnerOuter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/nested/inner/InnerOuterMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -246,7 +243,7 @@
       <workItem from="1737264982000" duration="8581000" />
       <workItem from="1737280315123" duration="3373000" />
       <workItem from="1737339595691" duration="4511000" />
-      <workItem from="1737346776979" duration="1901000" />
+      <workItem from="1737346776979" duration="3076000" />
     </task>
     <task id="LOCAL-00001" summary="feat : 김영한 자바 중급(깃 테스트)">
       <option name="closed" value="true" />
@@ -536,7 +533,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737347780868</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="feat : 김영한 자바 중급(정적 중첩 클래스 예제)">
+      <option name="closed" value="true" />
+      <created>1737348715083</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1737348715083</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -554,7 +559,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat : 김영한 자바 중급(불변 객체)" />
     <MESSAGE value="feat : 김영한 자바 중급(불변 객체 도입)" />
     <MESSAGE value="feat : 김영한 자바 중급(불변 객체 예제)" />
     <MESSAGE value="feat : 김영한 자바 중급(불변 객체 - 값 변경)" />
@@ -579,7 +583,8 @@
     <MESSAGE value="feat : 김영한 자바 중급(열거형 ENUM - 문제풀이1)" />
     <MESSAGE value="feat : 김영한 자바 중급(열거형 ENUM - 문제풀이2)" />
     <MESSAGE value="feat : 김영한 자바 중급(정적 중첩 클래스)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(정적 중첩 클래스)" />
+    <MESSAGE value="feat : 김영한 자바 중급(정적 중첩 클래스 예제)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(정적 중첩 클래스 예제)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
