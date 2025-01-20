@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(정적 중첩 클래스 - 지역클래스 지역변수 캡처)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/local/LocalOuterV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/anonymous/AnonymousOuter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,11 +118,11 @@
       <recent name="C:\Users\send2\IdeaProjects\java-Intermediate" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="src.sourceCode.session9.nested.anonymous" />
       <recent name="src.sourceCode.session9.nested.local" />
       <recent name="src.sourceCode.session8.nested.nested.ex2" />
       <recent name="src.sourceCode.enumeration.ref3" />
       <recent name="src.sourceCode.enumeration.ref2" />
-      <recent name="src.sourceCode.enumeration.ref1" />
     </key>
   </component>
   <component name="RunManager" selected="Application.LocalOuterV3">
@@ -249,7 +249,7 @@
       <workItem from="1737280315123" duration="3373000" />
       <workItem from="1737339595691" duration="4511000" />
       <workItem from="1737346776979" duration="7304000" />
-      <workItem from="1737355556968" duration="4236000" />
+      <workItem from="1737355556968" duration="5133000" />
     </task>
     <task id="LOCAL-00001" summary="feat : 김영한 자바 중급(깃 테스트)">
       <option name="closed" value="true" />
@@ -579,7 +579,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737359320316</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="feat : 김영한 자바 중급(정적 중첩 클래스 - 지역클래스 지역변수 캡처)">
+      <option name="closed" value="true" />
+      <created>1737359963370</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1737359963370</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
