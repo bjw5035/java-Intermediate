@@ -1,6 +1,4 @@
-package src.sourceCode.session9.nested.test;
-
-import src.sourceCode.session9.nested.test.OuterClass2.InnerClass;
+package src.sourceCode.session9.nested.test.ex1;
 
 public class OuterClass2Main {
 

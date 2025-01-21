@@ -5,14 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(문제풀이 1)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/AnonymousMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/OuterClass2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/OuterClass2Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/OuterClass3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/OuterClass3Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/ex2/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/ex2/LibraryMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/session9/nested/test/OuterClass1$NestedClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/session9/nested/test/OuterClass1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/session9/nested/test/OuterClass1Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/session9/nested/test/OuterClass2$InnerClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/session9/nested/test/OuterClass2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/session9/nested/test/OuterClass2Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/session9/nested/test/OuterClass3$1LocalClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/session9/nested/test/OuterClass3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/session9/nested/test/OuterClass3Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/AnonymousMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/ex1/AnonymousMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/ex1/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/OuterClass1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/ex1/OuterClass1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/OuterClass1Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/ex1/OuterClass1Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/OuterClass2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/ex1/OuterClass2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/OuterClass2Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/ex1/OuterClass2Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/OuterClass3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/ex1/OuterClass3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/OuterClass3Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/ex1/OuterClass3Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +85,7 @@
     "Application.EqualsMainV2.executor": "Run",
     "Application.ImmutableMain1.executor": "Run",
     "Application.ImmutableMyDateMain.executor": "Run",
+    "Application.LibraryMain.executor": "Run",
     "Application.LocalOuterV3.executor": "Run",
     "Application.LottoGeneratorMain.executor": "Run",
     "Application.MemberMainV1.executor": "Run",
@@ -124,6 +137,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="src.sourceCode.session9.nested.test.ex2" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\send2\IdeaProjects\java-Intermediate\src\sourceCode\session8\nested\nested\inner\ex2" />
       <recent name="C:\Users\send2\IdeaProjects\java-Intermediate" />
@@ -136,13 +152,13 @@
       <recent name="src.sourceCode.enumeration.ref3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnonymousMain">
+  <component name="RunManager" selected="Application.LibraryMain">
     <configuration name="AnonymousMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session9.nested.test.AnonymousMain" />
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session9.nested.test.ex1.AnonymousMain" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.session9.nested.test.*" />
+          <option name="PATTERN" value="src.sourceCode.session9.nested.test.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalOuterV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session9.nested.local.LocalOuterV3" />
+    <configuration name="LibraryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session9.nested.test.ex2.LibraryMain" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.session9.nested.local.*" />
+          <option name="PATTERN" value="src.sourceCode.session9.nested.test.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +180,11 @@
       </method>
     </configuration>
     <configuration name="OuterClass1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session9.nested.test.OuterClass1Main" />
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session9.nested.test.ex1.OuterClass1Main" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.session9.nested.test.*" />
+          <option name="PATTERN" value="src.sourceCode.session9.nested.test.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,11 +193,11 @@
       </method>
     </configuration>
     <configuration name="OuterClass2Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session9.nested.test.OuterClass2Main" />
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session9.nested.test.ex1.OuterClass2Main" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.session9.nested.test.*" />
+          <option name="PATTERN" value="src.sourceCode.session9.nested.test.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,11 +206,11 @@
       </method>
     </configuration>
     <configuration name="OuterClass3Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session9.nested.test.OuterClass3Main" />
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session9.nested.test.ex1.OuterClass3Main" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.session9.nested.test.*" />
+          <option name="PATTERN" value="src.sourceCode.session9.nested.test.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,18 +220,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.AnonymousMain" />
+      <item itemvalue="Application.LibraryMain" />
       <item itemvalue="Application.OuterClass1Main" />
       <item itemvalue="Application.OuterClass2Main" />
       <item itemvalue="Application.OuterClass3Main" />
-      <item itemvalue="Application.LocalOuterV3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LibraryMain" />
         <item itemvalue="Application.AnonymousMain" />
         <item itemvalue="Application.OuterClass3Main" />
         <item itemvalue="Application.OuterClass2Main" />
         <item itemvalue="Application.OuterClass1Main" />
-        <item itemvalue="Application.LocalOuterV3" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +279,7 @@
       <workItem from="1737355556968" duration="8108000" />
       <workItem from="1737365482674" duration="1661000" />
       <workItem from="1737379237687" duration="1482000" />
-      <workItem from="1737435692776" duration="3968000" />
+      <workItem from="1737435692776" duration="9950000" />
     </task>
     <task id="LOCAL-00001" summary="feat : 김영한 자바 중급(깃 테스트)">
       <option name="closed" value="true" />
@@ -633,7 +649,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737440784496</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="feat : 김영한 자바 중급(문제풀이 1)">
+      <option name="closed" value="true" />
+      <created>1737441931108</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1737441931108</updated>
+    </task>
+    <task id="LOCAL-00048" summary="feat : 김영한 자바 중급(문제풀이 1)">
+      <option name="closed" value="true" />
+      <created>1737441941169</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1737441941169</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

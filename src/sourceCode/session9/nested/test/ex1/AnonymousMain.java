@@ -1,4 +1,4 @@
-package src.sourceCode.session9.nested.test;
+package src.sourceCode.session9.nested.test.ex1;
 
 public class AnonymousMain {
 
