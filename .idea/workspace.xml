@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(정적 중첩 클래스 - 익명클래스 활용)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/OuterClass1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/OuterClass1Main.java" afterDir="false" />
+    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(문제풀이 1)">
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/AnonymousMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/OuterClass2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/OuterClass2Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/OuterClass3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/OuterClass3Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +63,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AnonymousMain.executor": "Run",
     "Application.AutoboxingMain1.executor": "Run",
     "Application.CarMain.executor": "Run",
     "Application.CharArrayMain.executor": "Run",
@@ -79,6 +85,8 @@
     "Application.ObjectMain.executor": "Run",
     "Application.ObjectPolyExample1.executor": "Run",
     "Application.OuterClass1Main.executor": "Run",
+    "Application.OuterClass2Main.executor": "Run",
+    "Application.OuterClass3Main.executor": "Run",
     "Application.Primitivemain.executor": "Run",
     "Application.RactangleMain.executor": "Run",
     "Application.RefMain1_1.executor": "Run",
@@ -128,7 +136,20 @@
       <recent name="src.sourceCode.enumeration.ref3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OuterClass1Main">
+  <component name="RunManager" selected="Application.AnonymousMain">
+    <configuration name="AnonymousMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session9.nested.test.AnonymousMain" />
+      <module name="java-Intermediate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.sourceCode.session9.nested.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LocalOuterV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.sourceCode.session9.nested.local.LocalOuterV3" />
       <module name="java-Intermediate" />
@@ -155,12 +176,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShadowingMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session8.nested.nested.inner.ShadowingMain" />
+    <configuration name="OuterClass2Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session9.nested.test.OuterClass2Main" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.session8.nested.nested.inner.*" />
+          <option name="PATTERN" value="src.sourceCode.session9.nested.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,25 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShadowingMain (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session8.nested.nested.inner.ShadowingMain" />
+    <configuration name="OuterClass3Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session9.nested.test.OuterClass3Main" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.session8.nested.nested.inner.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShadowingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session8.nested.nested.inner.ShadowingMain" />
-      <module name="java-Intermediate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.sourceCode.session8.nested.nested.inner.*" />
+          <option name="PATTERN" value="src.sourceCode.session9.nested.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,19 +203,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.AnonymousMain" />
       <item itemvalue="Application.OuterClass1Main" />
+      <item itemvalue="Application.OuterClass2Main" />
+      <item itemvalue="Application.OuterClass3Main" />
       <item itemvalue="Application.LocalOuterV3" />
-      <item itemvalue="Application.ShadowingMain" />
-      <item itemvalue="Application.ShadowingMain (1)" />
-      <item itemvalue="Application.ShadowingMain (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnonymousMain" />
+        <item itemvalue="Application.OuterClass3Main" />
+        <item itemvalue="Application.OuterClass2Main" />
         <item itemvalue="Application.OuterClass1Main" />
         <item itemvalue="Application.LocalOuterV3" />
-        <item itemvalue="Application.ShadowingMain (2)" />
-        <item itemvalue="Application.ShadowingMain (1)" />
-        <item itemvalue="Application.ShadowingMain" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +263,7 @@
       <workItem from="1737355556968" duration="8108000" />
       <workItem from="1737365482674" duration="1661000" />
       <workItem from="1737379237687" duration="1482000" />
-      <workItem from="1737435692776" duration="2704000" />
+      <workItem from="1737435692776" duration="3968000" />
     </task>
     <task id="LOCAL-00001" summary="feat : 김영한 자바 중급(깃 테스트)">
       <option name="closed" value="true" />
@@ -617,7 +625,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737439348026</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="feat : 김영한 자바 중급(문제풀이 1)">
+      <option name="closed" value="true" />
+      <created>1737440784496</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1737440784496</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -635,7 +651,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat : 김영한 자바 중급(String 클래스)" />
     <MESSAGE value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 기본형의 한계1)" />
     <MESSAGE value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 기본형의 한계2)" />
     <MESSAGE value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 박싱)" />
@@ -660,7 +675,8 @@
     <MESSAGE value="feat : 김영한 자바 중급(정적 중첩 클래스 - 지역클래스 지역변수 캡처)" />
     <MESSAGE value="feat : 김영한 자바 중급(정적 중첩 클래스 - 익명클래스)" />
     <MESSAGE value="feat : 김영한 자바 중급(정적 중첩 클래스 - 익명클래스 활용)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(정적 중첩 클래스 - 익명클래스 활용)" />
+    <MESSAGE value="feat : 김영한 자바 중급(문제풀이 1)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(문제풀이 1)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
