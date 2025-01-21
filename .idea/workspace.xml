@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(정적 중첩 클래스 - 익명클래스)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/anonymous/ex/Ex0Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/anonymous/ex/Ex0RefMain.java" afterDir="false" />
+    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(정적 중첩 클래스 - 익명클래스 활용)">
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/anonymous/ex/Ex1Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/anonymous/ex/Ex1RefMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/anonymous/ex/Ex1RefMainv2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/anonymous/ex/Ex1RefMainv3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/anonymous/ex/Ex1RefMainv4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/anonymous/ex/Process.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,75 +60,75 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AutoboxingMain1.executor": "Run",
-    "Application.CarMain.executor": "Run",
-    "Application.CharArrayMain.executor": "Run",
-    "Application.ClassMetaMain.executor": "Run",
-    "Application.ClassRefMain.executor": "Run",
-    "Application.EnumRefMain3_4.executor": "Run",
-    "Application.EqualsMainV2.executor": "Run",
-    "Application.ImmutableMain1.executor": "Run",
-    "Application.ImmutableMyDateMain.executor": "Run",
-    "Application.LocalOuterV3.executor": "Run",
-    "Application.LottoGeneratorMain.executor": "Run",
-    "Application.MemberMainV1.executor": "Run",
-    "Application.MethodChainingMain1.executor": "Run",
-    "Application.MethodChainingMain2.executor": "Run",
-    "Application.MutableMain.executor": "Run",
-    "Application.MyIntegerMethodMain.executor": "Debug",
-    "Application.MyIntegerMethodMain0.executor": "Run",
-    "Application.NestedOuterMain.executor": "Run",
-    "Application.ObjectMain.executor": "Run",
-    "Application.ObjectPolyExample1.executor": "Run",
-    "Application.Primitivemain.executor": "Run",
-    "Application.RactangleMain.executor": "Run",
-    "Application.RefMain1_1.executor": "Run",
-    "Application.RefMain1_2.executor": "Run",
-    "Application.RefMain1_3.executor": "Run",
-    "Application.RefMain2.executor": "Run",
-    "Application.ShadowingMain (1).executor": "Run",
-    "Application.ShadowingMain (2).executor": "Run",
-    "Application.ShadowingMain.executor": "Run",
-    "Application.StringBasicMain.executor": "Run",
-    "Application.StringBuilderMain1_1.executor": "Run",
-    "Application.StringConcatMain.executor": "Run",
-    "Application.StringEqualsMain1.executor": "Run",
-    "Application.StringEqualsMain2.executor": "Run",
-    "Application.StringImmutable1.executor": "Run",
-    "Application.StringImmutable2.executor": "Run",
-    "Application.ToStringMain1.executor": "Run",
-    "Application.ToStringMain2.executor": "Run",
-    "Application.WrapperTest1.executor": "Run",
-    "Application.WrapperTest2.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore_missing_gitignore": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/send2/IdeaProjects/java-Intermediate/src/sourceCode/session8/nested/nested/inner/ex2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.sync",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AutoboxingMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CarMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CharArrayMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassMetaMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ClassRefMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EnumRefMain3_4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EqualsMainV2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImmutableMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ImmutableMyDateMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LocalOuterV3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LottoGeneratorMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MemberMainV1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodChainingMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MethodChainingMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MutableMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MyIntegerMethodMain.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MyIntegerMethodMain0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NestedOuterMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ObjectPolyExample1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Primitivemain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RactangleMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RefMain1_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RefMain1_2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RefMain1_3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RefMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShadowingMain (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShadowingMain (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShadowingMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringBasicMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringBuilderMain1_1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringConcatMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringEqualsMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringEqualsMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringImmutable1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringImmutable2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ToStringMain1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ToStringMain2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WrapperTest1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.WrapperTest2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/send2/IdeaProjects/java-Intermediate/src/sourceCode/session8/nested/nested/inner/ex2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\send2\IdeaProjects\java-Intermediate\src\sourceCode\session8\nested\nested\inner\ex2" />
       <recent name="C:\Users\send2\IdeaProjects\java-Intermediate" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="src.sourceCode.session9.nested.anonymous.ex" />
       <recent name="src.sourceCode.session9.nested.anonymous" />
       <recent name="src.sourceCode.session9.nested.local" />
       <recent name="src.sourceCode.session8.nested.nested.ex2" />
       <recent name="src.sourceCode.enumeration.ref3" />
-      <recent name="src.sourceCode.enumeration.ref2" />
     </key>
   </component>
   <component name="RunManager" selected="Application.LocalOuterV3">
@@ -251,7 +255,10 @@
       <workItem from="1737280315123" duration="3373000" />
       <workItem from="1737339595691" duration="4511000" />
       <workItem from="1737346776979" duration="7304000" />
-      <workItem from="1737355556968" duration="6539000" />
+      <workItem from="1737355556968" duration="8108000" />
+      <workItem from="1737365482674" duration="1661000" />
+      <workItem from="1737379237687" duration="1482000" />
+      <workItem from="1737435692776" duration="1399000" />
     </task>
     <task id="LOCAL-00001" summary="feat : 김영한 자바 중급(깃 테스트)">
       <option name="closed" value="true" />
@@ -597,7 +604,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737360825536</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="feat : 김영한 자바 중급(정적 중첩 클래스 - 익명클래스 활용)">
+      <option name="closed" value="true" />
+      <created>1737362307386</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1737362307386</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -615,7 +630,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat : 김영한 자바 중급(String 클래스 -&gt; String최적화)" />
     <MESSAGE value="feat : 김영한 자바 중급(String 클래스)" />
     <MESSAGE value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 기본형의 한계1)" />
     <MESSAGE value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 기본형의 한계2)" />
@@ -640,7 +654,8 @@
     <MESSAGE value="feat : 김영한 자바 중급(정적 중첩 클래스 - 지역클래스 예제)" />
     <MESSAGE value="feat : 김영한 자바 중급(정적 중첩 클래스 - 지역클래스 지역변수 캡처)" />
     <MESSAGE value="feat : 김영한 자바 중급(정적 중첩 클래스 - 익명클래스)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(정적 중첩 클래스 - 익명클래스)" />
+    <MESSAGE value="feat : 김영한 자바 중급(정적 중첩 클래스 - 익명클래스 활용)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(정적 중첩 클래스 - 익명클래스 활용)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
