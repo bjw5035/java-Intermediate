@@ -4,11 +4,170 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(예외처리 1 - 이론)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex1/MainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex1/NetworkClientV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex1/NetworkServiceV1_1.java" afterDir="false" />
+    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(예외처리 1 - 이론(예외 처리가 필요한 이유3 - 반환 값으로 예외 처리))">
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session6/time/ChangeTimePlusMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session6/time/ChangeTimeWithMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session6/time/ChronoFieldMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session6/time/ChronoUnitMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session6/time/DurationMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session6/time/FormattingMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session6/time/FormattingMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session6/time/GetTimeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session6/time/InstantMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session6/time/IsSupportedMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session6/time/IsSupportedMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session6/time/LocalDateMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session6/time/LocalDateTimeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session6/time/LocalTimeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session6/time/OffsetDateTimeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session6/time/PeriodMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session6/time/ZoneIdMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session6/time/ZonedDateTimeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session6/time/test/TestAdjusters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session6/time/test/TestBetween.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session6/time/test/TestCalendarPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session6/time/test/TestLoopPlus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session6/time/test/TestPlus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session6/time/test/TestZone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/ex0/DiscountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/ex0/DiscountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/ex0/StringGradeEx0_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/ex0/StringGradeEx0_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/ex0/StringGradeEx0_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/ex0/StringGradeEx0_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/ex1/DiscountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/ex1/DiscountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/ex1/StringGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/ex1/StringGrade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/ex1/StringGradeEx1_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/ex1/StringGradeEx1_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/ex1/StringGradeEx1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/ex1/StringGradeEx1_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/ex2/ClassGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/ex2/ClassGrade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/ex2/ClassGradeEx2_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/ex2/ClassGradeEx2_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/ex2/ClassGradeEx2_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/ex2/ClassGradeEx2_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/ex2/ClassRefMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/ex2/ClassRefMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/ex2/DiscountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/ex2/DiscountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/ex3/DiscountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/ex3/DiscountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/ex3/EnumEx3_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/ex3/EnumEx3_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/ex3/EnumEx3_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/ex3/EnumEx3_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/ex3/EnumMethodMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/ex3/EnumMethodMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/ex3/EnumRefMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/ex3/EnumRefMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/ex3/Grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/ex3/Grade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/ref1/ClassGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/ref1/ClassGrade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/ref1/ClassGradeRefMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/ref1/ClassGradeRefMain1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/ref1/DiscountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/ref1/DiscountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/ref2/DiscountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/ref2/DiscountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/ref2/EnumRefMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/ref2/EnumRefMain2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/ref2/Grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/ref2/Grade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/ref3/DiscountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/ref3/DiscountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/ref3/EnumRefMain3_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/ref3/EnumRefMain3_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/ref3/EnumRefMain3_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/ref3/EnumRefMain3_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/ref3/EnumRefMain3_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/ref3/EnumRefMain3_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/ref3/EnumRefMain3_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/ref3/EnumRefMain3_4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/ref3/Grade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/ref3/Grade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/test/AuthGrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/test/AuthGrade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/test/AuthGradeMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/test/AuthGradeMain1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/test/AuthGradeMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/test/AuthGradeMain2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/test/http/HttpStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/test/http/HttpStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/enumeration/test/http/HttpStatusMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session5/enumeration/test/http/HttpStatusMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session2/lang/immutable/address/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/ImmutableAddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session2/lang/immutable/address/ImmutableAddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/MemberMainV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session2/lang/immutable/address/MemberMainV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/MemberMainV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session2/lang/immutable/address/MemberMainV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/MemberV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session2/lang/immutable/address/MemberV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/MemberV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session2/lang/immutable/address/MemberV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/Primitivemain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session2/lang/immutable/address/Primitivemain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/RefMain1_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session2/lang/immutable/address/RefMain1_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/RefMain1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session2/lang/immutable/address/RefMain1_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/RefMain1_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session2/lang/immutable/address/RefMain1_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/address/RefMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session2/lang/immutable/address/RefMain2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/change/ImmutableMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session2/lang/immutable/change/ImmutableMain1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/change/ImmutableObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session2/lang/immutable/change/ImmutableObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/change/MutableMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session2/lang/immutable/change/MutableMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/change/MutableObj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session2/lang/immutable/change/MutableObj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/test/ImmutableMyDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session2/lang/immutable/test/ImmutableMyDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/test/ImmutableMyDateMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session2/lang/immutable/test/ImmutableMyDateMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/test/MyDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session2/lang/immutable/test/MyDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/immutable/test/MyDateMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session2/lang/immutable/test/MyDateMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session1/lang/object/Child.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/ObjectMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session1/lang/object/ObjectMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session1/lang/object/Parent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/equals/EqualsMainV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session1/lang/object/equals/EqualsMainV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/equals/EqualsMainV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session1/lang/object/equals/EqualsMainV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/equals/UserV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session1/lang/object/equals/UserV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/equals/UserV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session1/lang/object/equals/UserV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/poly/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session1/lang/object/poly/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/poly/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session1/lang/object/poly/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/poly/ObjectPolyExample1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session1/lang/object/poly/ObjectPolyExample1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/poly/ObjectPolyExample2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session1/lang/object/poly/ObjectPolyExample2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/test/ExRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session1/lang/object/test/ExRectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/test/RactangleMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session1/lang/object/test/RactangleMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/tostring/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session1/lang/object/tostring/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/tostring/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session1/lang/object/tostring/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/tostring/ObjectPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session1/lang/object/tostring/ObjectPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/tostring/ToStringMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session1/lang/object/tostring/ToStringMain1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/object/tostring/ToStringMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session1/lang/object/tostring/ToStringMain2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/string/CharArrayMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session3/lang/string/CharArrayMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/string/StringBasicMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session3/lang/string/StringBasicMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/string/StringConcatMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session3/lang/string/StringConcatMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/string/builder/LoopStringMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session3/lang/string/builder/LoopStringMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/string/builder/StringBuilderMain1_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session3/lang/string/builder/StringBuilderMain1_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/string/builder/StringBuilderMain1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session3/lang/string/builder/StringBuilderMain1_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/string/chaining/MethodChainingMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session3/lang/string/chaining/MethodChainingMain1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/string/chaining/MethodChainingMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session3/lang/string/chaining/MethodChainingMain2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/string/chaining/MethodChainingMain3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session3/lang/string/chaining/MethodChainingMain3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/string/chaining/ValueAdder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session3/lang/string/chaining/ValueAdder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/string/equals/StringEqualsMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session3/lang/string/equals/StringEqualsMain1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/string/equals/StringEqualsMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session3/lang/string/equals/StringEqualsMain2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/string/immutable/StringImmutable1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session3/lang/string/immutable/StringImmutable1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/string/immutable/StringImmutable2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session3/lang/string/immutable/StringImmutable2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/AutoboxingMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session4/lang/wrapper/AutoboxingMain1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/AutoboxingMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session4/lang/wrapper/AutoboxingMain2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/MyInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session4/lang/wrapper/MyInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/MyIntegerMethodMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session4/lang/wrapper/MyIntegerMethodMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/MyIntegerMethodMain0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session4/lang/wrapper/MyIntegerMethodMain0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/MyIntegerNullMain0.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session4/lang/wrapper/MyIntegerNullMain0.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/WrapperClassMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session4/lang/wrapper/WrapperClassMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/WrapperUtilsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session4/lang/wrapper/WrapperUtilsMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/WrapperVsPrimitive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session4/lang/wrapper/WrapperVsPrimitive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/test/WrapperTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session4/lang/wrapper/test/WrapperTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/test/WrapperTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session4/lang/wrapper/test/WrapperTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/test/WrapperTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session4/lang/wrapper/test/WrapperTest3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/lang/wrapper/test/WrapperTest4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session4/lang/wrapper/test/WrapperTest4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session8/nested/nested/NestedOuter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session7/nested/nested/NestedOuter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session8/nested/nested/NestedOuterMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session7/nested/nested/NestedOuterMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session8/nested/nested/ex1/Network.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session7/nested/nested/ex1/Network.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session8/nested/nested/ex1/NetworkMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session7/nested/nested/ex1/NetworkMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session8/nested/nested/ex1/NetworkMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session7/nested/nested/ex1/NetworkMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session8/nested/nested/ex2/Network.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session7/nested/nested/ex2/Network.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session8/nested/nested/ex2/NetworkMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session7/nested/nested/ex2/NetworkMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session8/nested/nested/inner/InnerOuter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session7/nested/nested/inner/InnerOuter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session8/nested/nested/inner/InnerOuterMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session7/nested/nested/inner/InnerOuterMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session8/nested/nested/inner/ShadowingMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session7/nested/nested/inner/ShadowingMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session8/nested/nested/inner/ex1/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session7/nested/nested/inner/ex1/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session8/nested/nested/inner/ex1/CarMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session7/nested/nested/inner/ex1/CarMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session8/nested/nested/inner/ex1/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session7/nested/nested/inner/ex1/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session8/nested/nested/inner/ex2/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session7/nested/nested/inner/ex2/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session8/nested/nested/inner/ex2/CarMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session7/nested/nested/inner/ex2/CarMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/anonymous/AnonymousOuter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/anonymous/AnonymousOuter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/anonymous/ex/Ex0Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/anonymous/ex/Ex0Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/anonymous/ex/Ex0RefMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/anonymous/ex/Ex0RefMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/anonymous/ex/Ex1Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/anonymous/ex/Ex1Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/anonymous/ex/Ex1RefMainV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/anonymous/ex/Ex1RefMainV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/anonymous/ex/Ex1RefMainv2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/anonymous/ex/Ex1RefMainv2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/anonymous/ex/Ex1RefMainv3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/anonymous/ex/Ex1RefMainv3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/anonymous/ex/Ex1RefMainv4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/anonymous/ex/Ex1RefMainv4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/anonymous/ex/Process.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/anonymous/ex/Process.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/local/LocalOuterV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/local/LocalOuterV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/local/LocalOuterV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/local/LocalOuterV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/local/LocalOuterV3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/local/LocalOuterV3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/local/LocalOuterV4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/local/LocalOuterV4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/local/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/local/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/ex1/AnonymousMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/test/ex1/AnonymousMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/ex1/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/test/ex1/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/ex1/OuterClass1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/test/ex1/OuterClass1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/ex1/OuterClass1Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/test/ex1/OuterClass1Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/ex1/OuterClass2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/test/ex1/OuterClass2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/ex1/OuterClass2Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/test/ex1/OuterClass2Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/ex1/OuterClass3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/test/ex1/OuterClass3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/ex1/OuterClass3Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/test/ex1/OuterClass3Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/ex2/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/test/ex2/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/ex2/LibraryMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session8/nested/test/ex2/LibraryMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +231,7 @@
     "Application.LibraryMain.executor": "Run",
     "Application.LocalOuterV3.executor": "Run",
     "Application.LottoGeneratorMain.executor": "Run",
+    "Application.MainV1.executor": "Run",
     "Application.MemberMainV1.executor": "Run",
     "Application.MethodChainingMain1.executor": "Run",
     "Application.MethodChainingMain2.executor": "Run",
@@ -110,7 +270,7 @@
     "git-widget-placeholder": "main",
     "ignore_missing_gitignore": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/send2/IdeaProjects/java-Intermediate/src/sourceCode/session8/nested/nested/inner/ex2",
+    "last_opened_file_path": "C:/Users/send2/IdeaProjects/java-Intermediate/src/sourceCode/session6",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -125,8 +285,11 @@
       <recent name="src.sourceCode.session9.nested.test.ex2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\send2\IdeaProjects\java-Intermediate\src\sourceCode\session8\nested\nested\inner\ex2" />
-      <recent name="C:\Users\send2\IdeaProjects\java-Intermediate" />
+      <recent name="C:\Users\send2\IdeaProjects\java-Intermediate\src\sourceCode\session6" />
+      <recent name="C:\Users\send2\IdeaProjects\java-Intermediate\src\sourceCode\session7" />
+      <recent name="C:\Users\send2\IdeaProjects\java-Intermediate\src\sourceCode\session5" />
+      <recent name="C:\Users\send2\IdeaProjects\java-Intermediate\src\sourceCode\session4" />
+      <recent name="C:\Users\send2\IdeaProjects\java-Intermediate\src\sourceCode" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="src.sourceCode.session9.nested.anonymous.ex" />
@@ -138,11 +301,11 @@
   </component>
   <component name="RunManager" selected="Application.MainV1">
     <configuration name="AnonymousMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session9.nested.test.ex1.AnonymousMain" />
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session8.nested.test.ex1.AnonymousMain" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.session9.nested.test.ex1.*" />
+          <option name="PATTERN" value="src.sourceCode.session8.nested.test.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,11 +314,11 @@
       </method>
     </configuration>
     <configuration name="LibraryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session9.nested.test.ex2.LibraryMain" />
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session8.nested.test.ex2.LibraryMain" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.session9.nested.test.ex2.*" />
+          <option name="PATTERN" value="src.sourceCode.session8.nested.test.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +327,11 @@
       </method>
     </configuration>
     <configuration name="MainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session10.exception.ex1.MainV1" />
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session9.exception.ex1.MainV1" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.session10.exception.ex1.*" />
+          <option name="PATTERN" value="src.sourceCode.session9.exception.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,11 +340,11 @@
       </method>
     </configuration>
     <configuration name="OuterClass2Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session9.nested.test.ex1.OuterClass2Main" />
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session8.nested.test.ex1.OuterClass2Main" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.session9.nested.test.ex1.*" />
+          <option name="PATTERN" value="src.sourceCode.session8.nested.test.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,11 +353,11 @@
       </method>
     </configuration>
     <configuration name="OuterClass3Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session9.nested.test.ex1.OuterClass3Main" />
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session8.nested.test.ex1.OuterClass3Main" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.session9.nested.test.ex1.*" />
+          <option name="PATTERN" value="src.sourceCode.session8.nested.test.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,23 +426,7 @@
       <workItem from="1737355556968" duration="8108000" />
       <workItem from="1737365482674" duration="1661000" />
       <workItem from="1737379237687" duration="1482000" />
-      <workItem from="1737435692776" duration="11877000" />
-    </task>
-    <task id="LOCAL-00002" summary="feat : 김영한 자바 중급(패키지명 수정)">
-      <option name="closed" value="true" />
-      <created>1736742897939</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1736742897939</updated>
-    </task>
-    <task id="LOCAL-00003" summary="feat : 김영한 자바 중급(패키지명 수정)">
-      <option name="closed" value="true" />
-      <created>1736744755561</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1736744755561</updated>
+      <workItem from="1737435692776" duration="13291000" />
     </task>
     <task id="LOCAL-00004" summary="feat : 김영한 자바 중급(Object 클래스)">
       <option name="closed" value="true" />
@@ -657,7 +804,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737451751999</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="feat : 김영한 자바 중급(예외처리 1 - 이론)">
+      <option name="closed" value="true" />
+      <created>1737452472388</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1737452472388</updated>
+    </task>
+    <task id="LOCAL-00052" summary="feat : 김영한 자바 중급(예외처리 1 - 이론(예외 처리가 필요한 이유3 - 반환 값으로 예외 처리))">
+      <option name="closed" value="true" />
+      <created>1737452677040</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1737452677040</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -675,7 +838,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 박싱)" />
     <MESSAGE value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 오토박싱,언박싱)" />
     <MESSAGE value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 성능)" />
     <MESSAGE value="feat : 김영한 자바 중급(Class 클래스 )" />
@@ -700,7 +862,8 @@
     <MESSAGE value="feat : 김영한 자바 중급(문제풀이 1)" />
     <MESSAGE value="feat : 김영한 자바 중급(문제풀이 2)" />
     <MESSAGE value="feat : 김영한 자바 중급(예외처리 1 - 이론)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(예외처리 1 - 이론)" />
+    <MESSAGE value="feat : 김영한 자바 중급(예외처리 1 - 이론(예외 처리가 필요한 이유3 - 반환 값으로 예외 처리))" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(예외처리 1 - 이론(예외 처리가 필요한 이유3 - 반환 값으로 예외 처리))" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
