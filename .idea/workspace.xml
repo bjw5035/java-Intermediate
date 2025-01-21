@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(문제풀이 2)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex0/MainV0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex0/NetworkClientV0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex0/NetworkServiceV0.java" afterDir="false" />
+    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(예외처리 1 - 이론)">
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex1/MainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex1/NetworkClientV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex1/NetworkServiceV1_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,7 +136,7 @@
       <recent name="src.sourceCode.enumeration.ref3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LibraryMain">
+  <component name="RunManager" selected="Application.MainV1">
     <configuration name="AnonymousMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.sourceCode.session9.nested.test.ex1.AnonymousMain" />
       <module name="java-Intermediate" />
@@ -163,12 +163,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OuterClass1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session9.nested.test.ex1.OuterClass1Main" />
+    <configuration name="MainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session10.exception.ex1.MainV1" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.session9.nested.test.ex1.*" />
+          <option name="PATTERN" value="src.sourceCode.session10.exception.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,17 +205,17 @@
     <list>
       <item itemvalue="Application.AnonymousMain" />
       <item itemvalue="Application.LibraryMain" />
-      <item itemvalue="Application.OuterClass1Main" />
+      <item itemvalue="Application.MainV1" />
       <item itemvalue="Application.OuterClass2Main" />
       <item itemvalue="Application.OuterClass3Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainV1" />
         <item itemvalue="Application.LibraryMain" />
         <item itemvalue="Application.AnonymousMain" />
         <item itemvalue="Application.OuterClass3Main" />
         <item itemvalue="Application.OuterClass2Main" />
-        <item itemvalue="Application.OuterClass1Main" />
       </list>
     </recent_temporary>
   </component>
@@ -263,15 +263,7 @@
       <workItem from="1737355556968" duration="8108000" />
       <workItem from="1737365482674" duration="1661000" />
       <workItem from="1737379237687" duration="1482000" />
-      <workItem from="1737435692776" duration="11161000" />
-    </task>
-    <task id="LOCAL-00001" summary="feat : 김영한 자바 중급(깃 테스트)">
-      <option name="closed" value="true" />
-      <created>1736740040235</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1736740040235</updated>
+      <workItem from="1737435692776" duration="11877000" />
     </task>
     <task id="LOCAL-00002" summary="feat : 김영한 자바 중급(패키지명 수정)">
       <option name="closed" value="true" />
@@ -657,7 +649,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737450426429</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="feat : 김영한 자바 중급(예외처리 1 - 이론)">
+      <option name="closed" value="true" />
+      <created>1737451751999</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1737451751999</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -675,7 +675,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 기본형의 한계2)" />
     <MESSAGE value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 박싱)" />
     <MESSAGE value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 오토박싱,언박싱)" />
     <MESSAGE value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 성능)" />
@@ -700,7 +699,8 @@
     <MESSAGE value="feat : 김영한 자바 중급(정적 중첩 클래스 - 익명클래스 활용)" />
     <MESSAGE value="feat : 김영한 자바 중급(문제풀이 1)" />
     <MESSAGE value="feat : 김영한 자바 중급(문제풀이 2)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(문제풀이 2)" />
+    <MESSAGE value="feat : 김영한 자바 중급(예외처리 1 - 이론)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(예외처리 1 - 이론)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
