@@ -4,27 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(문제풀이 1)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/ex2/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/ex2/LibraryMain.java" afterDir="false" />
+    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(문제풀이 2)">
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex0/MainV0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex0/NetworkClientV0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex0/NetworkServiceV0.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/session9/nested/test/OuterClass1$NestedClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/session9/nested/test/OuterClass1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/session9/nested/test/OuterClass1Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/session9/nested/test/OuterClass2$InnerClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/session9/nested/test/OuterClass2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/session9/nested/test/OuterClass2Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/session9/nested/test/OuterClass3$1LocalClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/session9/nested/test/OuterClass3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/session9/nested/test/OuterClass3Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/AnonymousMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/ex1/AnonymousMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/ex1/Hello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/OuterClass1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/ex1/OuterClass1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/OuterClass1Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/ex1/OuterClass1Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/OuterClass2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/ex1/OuterClass2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/OuterClass2Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/ex1/OuterClass2Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/OuterClass3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/ex1/OuterClass3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/OuterClass3Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/ex1/OuterClass3Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,7 +263,7 @@
       <workItem from="1737355556968" duration="8108000" />
       <workItem from="1737365482674" duration="1661000" />
       <workItem from="1737379237687" duration="1482000" />
-      <workItem from="1737435692776" duration="9950000" />
+      <workItem from="1737435692776" duration="11161000" />
     </task>
     <task id="LOCAL-00001" summary="feat : 김영한 자바 중급(깃 테스트)">
       <option name="closed" value="true" />
@@ -665,7 +649,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737441941169</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="feat : 김영한 자바 중급(문제풀이 2)">
+      <option name="closed" value="true" />
+      <created>1737450426429</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1737450426429</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -683,7 +675,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 기본형의 한계1)" />
     <MESSAGE value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 기본형의 한계2)" />
     <MESSAGE value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 박싱)" />
     <MESSAGE value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 오토박싱,언박싱)" />
@@ -708,7 +699,8 @@
     <MESSAGE value="feat : 김영한 자바 중급(정적 중첩 클래스 - 익명클래스)" />
     <MESSAGE value="feat : 김영한 자바 중급(정적 중첩 클래스 - 익명클래스 활용)" />
     <MESSAGE value="feat : 김영한 자바 중급(문제풀이 1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(문제풀이 1)" />
+    <MESSAGE value="feat : 김영한 자바 중급(문제풀이 2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(문제풀이 2)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
