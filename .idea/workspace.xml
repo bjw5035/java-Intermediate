@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(예외처리2 - 리소스 반환 문제)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex2/NetworkServiceV2_5.java" afterDir="false" />
+    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(예외처리2 - finally)">
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex3/MainV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex3/NetworkClientV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex3/NetworkServiceV3_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex3/exception/ConnectExceptionV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex3/exception/NetworkClientExceptionV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex3/exception/SendExceptionV3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex2/MainV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex2/MainV2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex2/NetworkClientV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex2/NetworkClientV2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,14 +142,14 @@
       <recent name="C:\Users\send2\IdeaProjects\java-Intermediate\src\sourceCode\session7" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="src.sourceCode.session10.exception.ex3" />
       <recent name="src.sourceCode.session10.exception.ex2" />
       <recent name="src.sourceCode.session9.exception.basic.unchecked" />
       <recent name="src.sourceCode.session9.exception.basic.checked" />
       <recent name="src.sourceCode.session9.nested.anonymous.ex" />
-      <recent name="src.sourceCode.session9.nested.anonymous" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.src.sourceCode.session10.exception.ex2.MainV2">
+  <component name="RunManager" selected="Application.src.sourceCode.session10.exception.ex3.MainV3">
     <configuration name="CheckedCatchMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.sourceCode.session9.exception.basic.checked.CheckedCatchMain" />
       <module name="java-Intermediate" />
@@ -186,19 +189,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session9.exception.ex3.MainV3" />
-      <module name="java-Intermediate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.sourceCode.session9.exception.ex3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="src.sourceCode.session10.exception.ex2.MainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.sourceCode.session10.exception.ex2.MainV2" />
       <module name="java-Intermediate" />
@@ -212,20 +202,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="src.sourceCode.session10.exception.ex3.MainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session10.exception.ex3.MainV3" />
+      <module name="java-Intermediate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.sourceCode.session10.exception.ex3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.CheckedCatchMain" />
       <item itemvalue="Application.CheckedThrowMain" />
       <item itemvalue="Application.MainV2" />
-      <item itemvalue="Application.MainV3" />
       <item itemvalue="Application.src.sourceCode.session10.exception.ex2.MainV2" />
+      <item itemvalue="Application.src.sourceCode.session10.exception.ex3.MainV3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.src.sourceCode.session10.exception.ex3.MainV3" />
         <item itemvalue="Application.src.sourceCode.session10.exception.ex2.MainV2" />
         <item itemvalue="Application.MainV2" />
         <item itemvalue="Application.CheckedThrowMain" />
         <item itemvalue="Application.CheckedCatchMain" />
-        <item itemvalue="Application.MainV3" />
       </list>
     </recent_temporary>
   </component>
@@ -274,15 +277,7 @@
       <workItem from="1737365482674" duration="1661000" />
       <workItem from="1737379237687" duration="1482000" />
       <workItem from="1737435692776" duration="13641000" />
-      <workItem from="1737517287645" duration="13558000" />
-    </task>
-    <task id="LOCAL-00012" summary="feat : 김영한 자바 중급(불변 객체 - 문제풀이)">
-      <option name="closed" value="true" />
-      <created>1737013115762</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1737013115762</updated>
+      <workItem from="1737517287645" duration="15746000" />
     </task>
     <task id="LOCAL-00013" summary="feat : 김영한 자바 중급(String 클래스 -&gt; String구조, String불변객체)">
       <option name="closed" value="true" />
@@ -668,7 +663,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737531602726</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="feat : 김영한 자바 중급(예외처리2 - finally)">
+      <option name="closed" value="true" />
+      <created>1737531994707</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1737531994707</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -686,7 +689,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat : 김영한 자바 중급(열거형 ENUM)" />
     <MESSAGE value="feat : 김영한 자바 중급(열거형 ENUM 리팩토링)" />
     <MESSAGE value="feat : 김영한 자바 중급(열거형 ENUM 리팩토링2)" />
     <MESSAGE value="feat : 김영한 자바 중급(열거형 ENUM 리팩토링3)" />
@@ -711,7 +713,8 @@
     <MESSAGE value="feat : 김영한 자바 중급(예외처리2 - 예외처리 도입 시작)" />
     <MESSAGE value="feat : 김영한 자바 중급(예외처리2 - 정상, 예외 흐름 분리)" />
     <MESSAGE value="feat : 김영한 자바 중급(예외처리2 - 리소스 반환 문제)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(예외처리2 - 리소스 반환 문제)" />
+    <MESSAGE value="feat : 김영한 자바 중급(예외처리2 - finally)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(예외처리2 - finally)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
