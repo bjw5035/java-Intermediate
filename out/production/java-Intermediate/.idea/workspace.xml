@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(정적 중첩 클래스 - 익명클래스 활용)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/OuterClass1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/nested/test/OuterClass1Main.java" afterDir="false" />
+    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(프로젝트 정리)">
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/exception/ex3/MainV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/exception/ex3/NetworkClientV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/exception/ex3/NetworkServiceV1_3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/exception/ex2/MainV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session9/exception/ex2/MainV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/exception/ex2/NetworkClientV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session9/exception/ex2/NetworkClientV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session9/exception/ex2/NetworkServiceV1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session9/exception/ex2/NetworkServiceV1_2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +36,12 @@
     &quot;assignee&quot;: &quot;bjw5035&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/bjw5035/java-Intermediate.git&quot;,
-    &quot;accountId&quot;: &quot;d779f0a9-f073-4358-b8fc-0472748c9507&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/bjw5035/java-Intermediate.git",
+    "accountId": "666a8a72-9fb7-4caf-b9c1-06435da2c7fa"
   }
-}</component>
+}]]></component>
   <component name="JsbtTreeLayoutManager">
     <layout place="tools.popupGrunt">
       <scroll-view-position x="0" y="0" />
@@ -56,68 +60,80 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AutoboxingMain1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CarMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CharArrayMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ClassMetaMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ClassRefMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EnumRefMain3_4.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EqualsMainV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ImmutableMain1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ImmutableMyDateMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LocalOuterV3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LottoGeneratorMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MemberMainV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MethodChainingMain1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MethodChainingMain2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MutableMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MyIntegerMethodMain.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MyIntegerMethodMain0.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NestedOuterMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ObjectMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ObjectPolyExample1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Primitivemain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RactangleMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RefMain1_1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RefMain1_2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RefMain1_3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RefMain2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ShadowingMain (1).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ShadowingMain (2).executor&quot;: &quot;Run&quot;,
-    &quot;Application.ShadowingMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringBasicMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringBuilderMain1_1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringConcatMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringEqualsMain1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringEqualsMain2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringImmutable1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringImmutable2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ToStringMain1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ToStringMain2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WrapperTest1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WrapperTest2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore_missing_gitignore&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/send2/IdeaProjects/java-Intermediate/src/sourceCode/session8/nested/nested/inner/ex2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AnonymousMain.executor": "Run",
+    "Application.AutoboxingMain1.executor": "Run",
+    "Application.CarMain.executor": "Run",
+    "Application.CharArrayMain.executor": "Run",
+    "Application.ClassMetaMain.executor": "Run",
+    "Application.ClassRefMain.executor": "Run",
+    "Application.EnumRefMain3_4.executor": "Run",
+    "Application.EqualsMainV2.executor": "Run",
+    "Application.ImmutableMain1.executor": "Run",
+    "Application.ImmutableMyDateMain.executor": "Run",
+    "Application.LibraryMain.executor": "Run",
+    "Application.LocalOuterV3.executor": "Run",
+    "Application.LottoGeneratorMain.executor": "Run",
+    "Application.MainV1.executor": "Run",
+    "Application.MemberMainV1.executor": "Run",
+    "Application.MethodChainingMain1.executor": "Run",
+    "Application.MethodChainingMain2.executor": "Run",
+    "Application.MutableMain.executor": "Run",
+    "Application.MyIntegerMethodMain.executor": "Debug",
+    "Application.MyIntegerMethodMain0.executor": "Run",
+    "Application.NestedOuterMain.executor": "Run",
+    "Application.ObjectMain.executor": "Run",
+    "Application.ObjectPolyExample1.executor": "Run",
+    "Application.OuterClass1Main.executor": "Run",
+    "Application.OuterClass2Main.executor": "Run",
+    "Application.OuterClass3Main.executor": "Run",
+    "Application.Primitivemain.executor": "Run",
+    "Application.RactangleMain.executor": "Run",
+    "Application.RefMain1_1.executor": "Run",
+    "Application.RefMain1_2.executor": "Run",
+    "Application.RefMain1_3.executor": "Run",
+    "Application.RefMain2.executor": "Run",
+    "Application.ShadowingMain (1).executor": "Run",
+    "Application.ShadowingMain (2).executor": "Run",
+    "Application.ShadowingMain.executor": "Run",
+    "Application.StringBasicMain.executor": "Run",
+    "Application.StringBuilderMain1_1.executor": "Run",
+    "Application.StringConcatMain.executor": "Run",
+    "Application.StringEqualsMain1.executor": "Run",
+    "Application.StringEqualsMain2.executor": "Run",
+    "Application.StringImmutable1.executor": "Run",
+    "Application.StringImmutable2.executor": "Run",
+    "Application.ToStringMain1.executor": "Run",
+    "Application.ToStringMain2.executor": "Run",
+    "Application.WrapperTest1.executor": "Run",
+    "Application.WrapperTest2.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore_missing_gitignore": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/send2/IdeaProjects/java-Intermediate/src/sourceCode/session9/exception/ex3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editing.templates",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="src.sourceCode.session9.nested.test.ex2" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\send2\IdeaProjects\java-Intermediate\src\sourceCode\session8\nested\nested\inner\ex2" />
-      <recent name="C:\Users\send2\IdeaProjects\java-Intermediate" />
+      <recent name="C:\Users\send2\IdeaProjects\java-Intermediate\src\sourceCode\session9\exception\ex3" />
+      <recent name="C:\Users\send2\IdeaProjects\java-Intermediate\src\sourceCode\session6" />
+      <recent name="C:\Users\send2\IdeaProjects\java-Intermediate\src\sourceCode\session7" />
+      <recent name="C:\Users\send2\IdeaProjects\java-Intermediate\src\sourceCode\session5" />
+      <recent name="C:\Users\send2\IdeaProjects\java-Intermediate\src\sourceCode\session4" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="src.sourceCode.session9.nested.anonymous.ex" />
@@ -127,13 +143,13 @@
       <recent name="src.sourceCode.enumeration.ref3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OuterClass1Main">
-    <configuration name="LocalOuterV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session9.nested.local.LocalOuterV3" />
+  <component name="RunManager" selected="Application.MainV3">
+    <configuration name="AnonymousMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session8.nested.test.ex1.AnonymousMain" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.session9.nested.local.*" />
+          <option name="PATTERN" value="src.sourceCode.session8.nested.test.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +157,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OuterClass1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session9.nested.test.OuterClass1Main" />
+    <configuration name="LibraryMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session8.nested.test.ex2.LibraryMain" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.session9.nested.test.*" />
+          <option name="PATTERN" value="src.sourceCode.session8.nested.test.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShadowingMain (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session8.nested.nested.inner.ShadowingMain" />
+    <configuration name="MainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session9.exception.ex1.MainV1" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.session8.nested.nested.inner.*" />
+          <option name="PATTERN" value="src.sourceCode.session9.exception.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShadowingMain (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session8.nested.nested.inner.ShadowingMain" />
+    <configuration name="MainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session9.exception.ex3.MainV3" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.session8.nested.nested.inner.*" />
+          <option name="PATTERN" value="src.sourceCode.session9.exception.ex3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,12 +196,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShadowingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session8.nested.nested.inner.ShadowingMain" />
+    <configuration name="OuterClass3Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session8.nested.test.ex1.OuterClass3Main" />
       <module name="java-Intermediate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.sourceCode.session8.nested.nested.inner.*" />
+          <option name="PATTERN" value="src.sourceCode.session8.nested.test.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,19 +210,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.OuterClass1Main" />
-      <item itemvalue="Application.LocalOuterV3" />
-      <item itemvalue="Application.ShadowingMain" />
-      <item itemvalue="Application.ShadowingMain (1)" />
-      <item itemvalue="Application.ShadowingMain (2)" />
+      <item itemvalue="Application.MainV3" />
+      <item itemvalue="Application.AnonymousMain" />
+      <item itemvalue="Application.LibraryMain" />
+      <item itemvalue="Application.MainV1" />
+      <item itemvalue="Application.OuterClass3Main" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OuterClass1Main" />
-        <item itemvalue="Application.LocalOuterV3" />
-        <item itemvalue="Application.ShadowingMain (2)" />
-        <item itemvalue="Application.ShadowingMain (1)" />
-        <item itemvalue="Application.ShadowingMain" />
+        <item itemvalue="Application.MainV3" />
+        <item itemvalue="Application.MainV1" />
+        <item itemvalue="Application.LibraryMain" />
+        <item itemvalue="Application.AnonymousMain" />
+        <item itemvalue="Application.OuterClass3Main" />
       </list>
     </recent_temporary>
   </component>
@@ -254,47 +270,8 @@
       <workItem from="1737355556968" duration="8108000" />
       <workItem from="1737365482674" duration="1661000" />
       <workItem from="1737379237687" duration="1482000" />
-      <workItem from="1737435692776" duration="2402000" />
-    </task>
-    <task id="LOCAL-00001" summary="feat : 김영한 자바 중급(깃 테스트)">
-      <option name="closed" value="true" />
-      <created>1736740040235</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1736740040235</updated>
-    </task>
-    <task id="LOCAL-00002" summary="feat : 김영한 자바 중급(패키지명 수정)">
-      <option name="closed" value="true" />
-      <created>1736742897939</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1736742897939</updated>
-    </task>
-    <task id="LOCAL-00003" summary="feat : 김영한 자바 중급(패키지명 수정)">
-      <option name="closed" value="true" />
-      <created>1736744755561</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1736744755561</updated>
-    </task>
-    <task id="LOCAL-00004" summary="feat : 김영한 자바 중급(Object 클래스)">
-      <option name="closed" value="true" />
-      <created>1736747614077</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1736747614077</updated>
-    </task>
-    <task id="LOCAL-00005" summary="feat : 김영한 자바 중급(Object 클래스, toString 오버라이드)">
-      <option name="closed" value="true" />
-      <created>1736749702760</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1736749702760</updated>
+      <workItem from="1737435692776" duration="13641000" />
+      <workItem from="1737517287645" duration="3230000" />
     </task>
     <task id="LOCAL-00006" summary="feat : 김영한 자바 중급(Object 클래스, equals 비교)">
       <option name="closed" value="true" />
@@ -616,7 +593,79 @@
       <option name="project" value="LOCAL" />
       <updated>1737439348026</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="feat : 김영한 자바 중급(문제풀이 1)">
+      <option name="closed" value="true" />
+      <created>1737440784496</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1737440784496</updated>
+    </task>
+    <task id="LOCAL-00047" summary="feat : 김영한 자바 중급(문제풀이 1)">
+      <option name="closed" value="true" />
+      <created>1737441931108</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1737441931108</updated>
+    </task>
+    <task id="LOCAL-00048" summary="feat : 김영한 자바 중급(문제풀이 1)">
+      <option name="closed" value="true" />
+      <created>1737441941169</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1737441941169</updated>
+    </task>
+    <task id="LOCAL-00049" summary="feat : 김영한 자바 중급(문제풀이 2)">
+      <option name="closed" value="true" />
+      <created>1737450426429</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1737450426429</updated>
+    </task>
+    <task id="LOCAL-00050" summary="feat : 김영한 자바 중급(예외처리 1 - 이론)">
+      <option name="closed" value="true" />
+      <created>1737451751999</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1737451751999</updated>
+    </task>
+    <task id="LOCAL-00051" summary="feat : 김영한 자바 중급(예외처리 1 - 이론)">
+      <option name="closed" value="true" />
+      <created>1737452472388</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1737452472388</updated>
+    </task>
+    <task id="LOCAL-00052" summary="feat : 김영한 자바 중급(예외처리 1 - 이론(예외 처리가 필요한 이유3 - 반환 값으로 예외 처리))">
+      <option name="closed" value="true" />
+      <created>1737452677040</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1737452677040</updated>
+    </task>
+    <task id="LOCAL-00053" summary="feat : 김영한 자바 중급(프로젝트 정리)">
+      <option name="closed" value="true" />
+      <created>1737453956679</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1737453956679</updated>
+    </task>
+    <task id="LOCAL-00054" summary="feat : 김영한 자바 중급(프로젝트 정리)">
+      <option name="closed" value="true" />
+      <created>1737453979452</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1737453979452</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -634,11 +683,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat : 김영한 자바 중급(String 클래스)" />
-    <MESSAGE value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 기본형의 한계1)" />
-    <MESSAGE value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 기본형의 한계2)" />
-    <MESSAGE value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 박싱)" />
-    <MESSAGE value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 오토박싱,언박싱)" />
     <MESSAGE value="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 성능)" />
     <MESSAGE value="feat : 김영한 자바 중급(Class 클래스 )" />
     <MESSAGE value="feat : 김영한 자바 중급(System 클래스 )" />
@@ -659,7 +703,12 @@
     <MESSAGE value="feat : 김영한 자바 중급(정적 중첩 클래스 - 지역클래스 지역변수 캡처)" />
     <MESSAGE value="feat : 김영한 자바 중급(정적 중첩 클래스 - 익명클래스)" />
     <MESSAGE value="feat : 김영한 자바 중급(정적 중첩 클래스 - 익명클래스 활용)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(정적 중첩 클래스 - 익명클래스 활용)" />
+    <MESSAGE value="feat : 김영한 자바 중급(문제풀이 1)" />
+    <MESSAGE value="feat : 김영한 자바 중급(문제풀이 2)" />
+    <MESSAGE value="feat : 김영한 자바 중급(예외처리 1 - 이론)" />
+    <MESSAGE value="feat : 김영한 자바 중급(예외처리 1 - 이론(예외 처리가 필요한 이유3 - 반환 값으로 예외 처리))" />
+    <MESSAGE value="feat : 김영한 자바 중급(프로젝트 정리)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(프로젝트 정리)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
