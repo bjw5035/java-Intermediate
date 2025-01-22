@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(예외처리2 - 활용)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex4/MainV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex4/NetworkClientV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex4/NetworkServiceV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex4/exception/ConnectExceptionV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex4/exception/NetworkClientExceptionV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex4/exception/SendExceptionV4.java" afterDir="false" />
+    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(예외처리2 - 구현)">
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex4/NetworkClientV5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex4/NetworkServiceV5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex4/MainV4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex4/MainV4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -278,15 +275,7 @@
       <workItem from="1737365482674" duration="1661000" />
       <workItem from="1737379237687" duration="1482000" />
       <workItem from="1737435692776" duration="13641000" />
-      <workItem from="1737517287645" duration="18749000" />
-    </task>
-    <task id="LOCAL-00015" summary="feat : 김영한 자바 중급(String 클래스)">
-      <option name="closed" value="true" />
-      <created>1737023929480</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1737023929480</updated>
+      <workItem from="1737517287645" duration="19801000" />
     </task>
     <task id="LOCAL-00016" summary="feat : 김영한 자바 중급(래퍼,Class클래스 -&gt; 래퍼클래스 기본형의 한계1)">
       <option name="closed" value="true" />
@@ -672,7 +661,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737535670590</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="feat : 김영한 자바 중급(예외처리2 - 구현)">
+      <option name="closed" value="true" />
+      <created>1737537765285</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1737537765285</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -690,7 +687,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat : 김영한 자바 중급(열거형 ENUM 리팩토링3)" />
     <MESSAGE value="feat : 김영한 자바 중급(열거형 ENUM - 문제풀이1)" />
     <MESSAGE value="feat : 김영한 자바 중급(열거형 ENUM - 문제풀이2)" />
     <MESSAGE value="feat : 김영한 자바 중급(정적 중첩 클래스)" />
@@ -715,7 +711,8 @@
     <MESSAGE value="feat : 김영한 자바 중급(예외처리2 - finally)" />
     <MESSAGE value="feat : 김영한 자바 중급(예외처리2 - 시작)" />
     <MESSAGE value="feat : 김영한 자바 중급(예외처리2 - 활용)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(예외처리2 - 활용)" />
+    <MESSAGE value="feat : 김영한 자바 중급(예외처리2 - 구현)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(예외처리2 - 구현)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
