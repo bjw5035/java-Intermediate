@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(예외처리 - 반환값으로 예외처리)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/exception/basic/checked/CheckedCatchMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/exception/basic/checked/CheckedThrowMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/exception/basic/checked/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/exception/basic/checked/MyCheckedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/exception/basic/checked/Service.java" afterDir="false" />
+    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(예외처리 - 체크 예외)">
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/exception/basic/unchecked/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/exception/basic/unchecked/MyUncheckedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/exception/basic/unchecked/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/exception/basic/unchecked/UncheckedCatchMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session9/exception/basic/unchecked/UncheckedThrowMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,11 +138,11 @@
       <recent name="C:\Users\send2\IdeaProjects\java-Intermediate\src\sourceCode\session4" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="src.sourceCode.session9.exception.basic.unchecked" />
       <recent name="src.sourceCode.session9.exception.basic.checked" />
       <recent name="src.sourceCode.session9.nested.anonymous.ex" />
       <recent name="src.sourceCode.session9.nested.anonymous" />
       <recent name="src.sourceCode.session9.nested.local" />
-      <recent name="src.sourceCode.session8.nested.nested.ex2" />
     </key>
   </component>
   <component name="RunManager" selected="Application.CheckedThrowMain">
@@ -273,15 +273,7 @@
       <workItem from="1737365482674" duration="1661000" />
       <workItem from="1737379237687" duration="1482000" />
       <workItem from="1737435692776" duration="13641000" />
-      <workItem from="1737517287645" duration="7225000" />
-    </task>
-    <task id="LOCAL-00007" summary="feat : 김영한 자바 중급(Object 클래스, equals 비교 문제풀이)">
-      <option name="closed" value="true" />
-      <created>1736754629351</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1736754629351</updated>
+      <workItem from="1737517287645" duration="8509000" />
     </task>
     <task id="LOCAL-00008" summary="feat : 김영한 자바 중급(불변 객체)">
       <option name="closed" value="true" />
@@ -667,7 +659,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737521602982</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="feat : 김영한 자바 중급(예외처리 - 체크 예외)">
+      <option name="closed" value="true" />
+      <created>1737525567949</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1737525567949</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -685,7 +685,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat : 김영한 자바 중급(Class 클래스 )" />
     <MESSAGE value="feat : 김영한 자바 중급(System 클래스 )" />
     <MESSAGE value="feat : 김영한 자바 중급(Math와 Random클래스 )" />
     <MESSAGE value="feat : 김영한 자바 중급(Math와 Random클래스 - 문제풀이1)" />
@@ -710,7 +709,8 @@
     <MESSAGE value="feat : 김영한 자바 중급(예외처리 1 - 이론(예외 처리가 필요한 이유3 - 반환 값으로 예외 처리))" />
     <MESSAGE value="feat : 김영한 자바 중급(프로젝트 정리)" />
     <MESSAGE value="feat : 김영한 자바 중급(예외처리 - 반환값으로 예외처리)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(예외처리 - 반환값으로 예외처리)" />
+    <MESSAGE value="feat : 김영한 자바 중급(예외처리 - 체크 예외)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(예외처리 - 체크 예외)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
