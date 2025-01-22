@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(예외처리2 - 예외처리 도입 시작)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex2/MainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex2/NetworkClientExceptionV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex2/NetworkClientV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex2/NetworkServiceV2_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex2/NetworkServiceV2_3.java" afterDir="false" />
+    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(예외처리2 - 정상, 예외 흐름 분리)">
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex2/NetworkServiceV2_4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/session10/exception/ex2/MainV2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/session10/exception/ex2/MainV2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/session10/exception/ex2/NetworkServiceV2_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-Intermediate/src/sourceCode/session10/exception/ex2/NetworkServiceV2_3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex2/MainV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex2/MainV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex2/NetworkServiceV2_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex2/NetworkServiceV2_3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +111,7 @@
     "Application.ToStringMain2.executor": "Run",
     "Application.WrapperTest1.executor": "Run",
     "Application.WrapperTest2.executor": "Run",
+    "Application.src.sourceCode.session10.exception.ex2.MainV2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -275,15 +276,7 @@
       <workItem from="1737365482674" duration="1661000" />
       <workItem from="1737379237687" duration="1482000" />
       <workItem from="1737435692776" duration="13641000" />
-      <workItem from="1737517287645" duration="12142000" />
-    </task>
-    <task id="LOCAL-00010" summary="feat : 김영한 자바 중급(불변 객체 예제)">
-      <option name="closed" value="true" />
-      <created>1736852513131</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1736852513131</updated>
+      <workItem from="1737517287645" duration="13135000" />
     </task>
     <task id="LOCAL-00011" summary="feat : 김영한 자바 중급(불변 객체 - 값 변경)">
       <option name="closed" value="true" />
@@ -669,7 +662,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737529784262</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="feat : 김영한 자바 중급(예외처리2 - 정상, 예외 흐름 분리)">
+      <option name="closed" value="true" />
+      <created>1737530764450</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1737530764450</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -687,7 +688,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat : 김영한 자바 중급(Math와 Random클래스 - 문제풀이1)" />
     <MESSAGE value="feat : 김영한 자바 중급(Math와 Random클래스 - 로또번호 자동생성기)" />
     <MESSAGE value="feat : 김영한 자바 중급(열거형 ENUM)" />
     <MESSAGE value="feat : 김영한 자바 중급(열거형 ENUM 리팩토링)" />
@@ -712,7 +712,8 @@
     <MESSAGE value="feat : 김영한 자바 중급(예외처리 - 체크 예외)" />
     <MESSAGE value="feat : 김영한 자바 중급(예외처리 - 언체크 예외)" />
     <MESSAGE value="feat : 김영한 자바 중급(예외처리2 - 예외처리 도입 시작)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(예외처리2 - 예외처리 도입 시작)" />
+    <MESSAGE value="feat : 김영한 자바 중급(예외처리2 - 정상, 예외 흐름 분리)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(예외처리2 - 정상, 예외 흐름 분리)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

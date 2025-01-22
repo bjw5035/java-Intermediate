@@ -1,6 +1,6 @@
 package src.sourceCode.session10.exception.ex2;
 
-public class NetworkServiceV2_3 {
+public class NetworkServiceV2_4 {
 
     public void sendMessage(String data)  {
 
@@ -12,11 +12,11 @@ public class NetworkServiceV2_3 {
         try {
             client.connect();
             client.send(data);
-            client.disconnect();
         } catch (NetworkClientExceptionV2 e) {
             System.out.println("[오류] 코드: " + e.getErrorCode() + ", 메시지: " +
                 e.getMessage());
         }
+        client.disconnect();
 
     }
 
