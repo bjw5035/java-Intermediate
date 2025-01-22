@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(예외처리2 - 시작)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex3/NetworkServiceV3_2.java" afterDir="false" />
+    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(예외처리2 - 활용)">
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex4/MainV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex4/NetworkClientV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex4/NetworkServiceV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex4/exception/ConnectExceptionV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex4/exception/NetworkClientExceptionV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex4/exception/SendExceptionV4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +121,7 @@
     "git-widget-placeholder": "main",
     "ignore_missing_gitignore": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/send2/IdeaProjects/java-Intermediate/src/sourceCode/session10/exception/ex2",
+    "last_opened_file_path": "C:/Users/send2/IdeaProjects/java-Intermediate/src/sourceCode/session10/exception/ex4/exception",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -131,18 +136,18 @@
       <recent name="src.sourceCode.session9.nested.test.ex2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\send2\IdeaProjects\java-Intermediate\src\sourceCode\session10\exception\ex4\exception" />
       <recent name="C:\Users\send2\IdeaProjects\java-Intermediate\src\sourceCode\session10\exception\ex2" />
       <recent name="C:\Users\send2\IdeaProjects\java-Intermediate\src\sourceCode\session10" />
       <recent name="C:\Users\send2\IdeaProjects\java-Intermediate\src\sourceCode\session9\exception\ex3" />
       <recent name="C:\Users\send2\IdeaProjects\java-Intermediate\src\sourceCode\session6" />
-      <recent name="C:\Users\send2\IdeaProjects\java-Intermediate\src\sourceCode\session7" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="src.sourceCode.session10.exception.ex4" />
       <recent name="src.sourceCode.session10.exception.ex3" />
       <recent name="src.sourceCode.session10.exception.ex2" />
       <recent name="src.sourceCode.session9.exception.basic.unchecked" />
       <recent name="src.sourceCode.session9.exception.basic.checked" />
-      <recent name="src.sourceCode.session9.nested.anonymous.ex" />
     </key>
   </component>
   <component name="RunManager" selected="Application.src.sourceCode.session10.exception.ex3.MainV3">
@@ -273,15 +278,7 @@
       <workItem from="1737365482674" duration="1661000" />
       <workItem from="1737379237687" duration="1482000" />
       <workItem from="1737435692776" duration="13641000" />
-      <workItem from="1737517287645" duration="16731000" />
-    </task>
-    <task id="LOCAL-00014" summary="feat : 김영한 자바 중급(String 클래스 -&gt; String최적화)">
-      <option name="closed" value="true" />
-      <created>1737022425261</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1737022425261</updated>
+      <workItem from="1737517287645" duration="18749000" />
     </task>
     <task id="LOCAL-00015" summary="feat : 김영한 자바 중급(String 클래스)">
       <option name="closed" value="true" />
@@ -667,7 +664,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737534766003</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="feat : 김영한 자바 중급(예외처리2 - 활용)">
+      <option name="closed" value="true" />
+      <created>1737535670590</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1737535670590</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -685,7 +690,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat : 김영한 자바 중급(열거형 ENUM 리팩토링2)" />
     <MESSAGE value="feat : 김영한 자바 중급(열거형 ENUM 리팩토링3)" />
     <MESSAGE value="feat : 김영한 자바 중급(열거형 ENUM - 문제풀이1)" />
     <MESSAGE value="feat : 김영한 자바 중급(열거형 ENUM - 문제풀이2)" />
@@ -710,7 +714,8 @@
     <MESSAGE value="feat : 김영한 자바 중급(예외처리2 - 리소스 반환 문제)" />
     <MESSAGE value="feat : 김영한 자바 중급(예외처리2 - finally)" />
     <MESSAGE value="feat : 김영한 자바 중급(예외처리2 - 시작)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(예외처리2 - 시작)" />
+    <MESSAGE value="feat : 김영한 자바 중급(예외처리2 - 활용)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(예외처리2 - 활용)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
