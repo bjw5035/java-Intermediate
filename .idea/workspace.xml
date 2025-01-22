@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(예외처리 - 언체크 예외)">
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex1/MainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex1/NetworkClientExceptionV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex1/NetworkClientV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex1/NetworkServiceV2_1.java" afterDir="false" />
+    <list default="true" id="a939052b-f7b7-4ce1-80b4-90b827dce33e" name="Changes" comment="feat : 김영한 자바 중급(예외처리2 - 예외처리 도입 시작)">
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex2/MainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex2/NetworkClientExceptionV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex2/NetworkClientV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex2/NetworkServiceV2_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sourceCode/session10/exception/ex2/NetworkServiceV2_3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,11 +114,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "full.screen.before.presentation.mode": "true",
+    "full.screen.before.presentation.mode": "false",
     "git-widget-placeholder": "main",
     "ignore_missing_gitignore": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/send2/IdeaProjects/java-Intermediate/src/sourceCode/session10",
+    "last_opened_file_path": "C:/Users/send2/IdeaProjects/java-Intermediate/src/sourceCode/session10/exception/ex2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -132,21 +133,21 @@
       <recent name="src.sourceCode.session9.nested.test.ex2" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\send2\IdeaProjects\java-Intermediate\src\sourceCode\session10\exception\ex2" />
       <recent name="C:\Users\send2\IdeaProjects\java-Intermediate\src\sourceCode\session10" />
       <recent name="C:\Users\send2\IdeaProjects\java-Intermediate\src\sourceCode\session9\exception\ex3" />
       <recent name="C:\Users\send2\IdeaProjects\java-Intermediate\src\sourceCode\session6" />
       <recent name="C:\Users\send2\IdeaProjects\java-Intermediate\src\sourceCode\session7" />
-      <recent name="C:\Users\send2\IdeaProjects\java-Intermediate\src\sourceCode\session5" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="src.sourceCode.session10.exception.ex2" />
       <recent name="src.sourceCode.session9.exception.basic.unchecked" />
       <recent name="src.sourceCode.session9.exception.basic.checked" />
       <recent name="src.sourceCode.session9.nested.anonymous.ex" />
       <recent name="src.sourceCode.session9.nested.anonymous" />
-      <recent name="src.sourceCode.session9.nested.local" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainV2">
+  <component name="RunManager" selected="Application.src.sourceCode.session10.exception.ex2.MainV2">
     <configuration name="CheckedCatchMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.sourceCode.session9.exception.basic.checked.CheckedCatchMain" />
       <module name="java-Intermediate" />
@@ -166,19 +167,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="src.sourceCode.session9.exception.basic.checked.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session9.exception.ex1.MainV1" />
-      <module name="java-Intermediate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.sourceCode.session9.exception.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,20 +200,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="src.sourceCode.session10.exception.ex2.MainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.sourceCode.session10.exception.ex2.MainV2" />
+      <module name="java-Intermediate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.sourceCode.session10.exception.ex2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.CheckedCatchMain" />
       <item itemvalue="Application.CheckedThrowMain" />
       <item itemvalue="Application.MainV2" />
       <item itemvalue="Application.MainV3" />
-      <item itemvalue="Application.MainV1" />
+      <item itemvalue="Application.src.sourceCode.session10.exception.ex2.MainV2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.src.sourceCode.session10.exception.ex2.MainV2" />
         <item itemvalue="Application.MainV2" />
         <item itemvalue="Application.CheckedThrowMain" />
         <item itemvalue="Application.CheckedCatchMain" />
         <item itemvalue="Application.MainV3" />
-        <item itemvalue="Application.MainV1" />
       </list>
     </recent_temporary>
   </component>
@@ -274,15 +275,7 @@
       <workItem from="1737365482674" duration="1661000" />
       <workItem from="1737379237687" duration="1482000" />
       <workItem from="1737435692776" duration="13641000" />
-      <workItem from="1737517287645" duration="11103000" />
-    </task>
-    <task id="LOCAL-00009" summary="feat : 김영한 자바 중급(불변 객체 도입)">
-      <option name="closed" value="true" />
-      <created>1736851505277</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1736851505277</updated>
+      <workItem from="1737517287645" duration="12142000" />
     </task>
     <task id="LOCAL-00010" summary="feat : 김영한 자바 중급(불변 객체 예제)">
       <option name="closed" value="true" />
@@ -668,7 +661,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737526572337</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="feat : 김영한 자바 중급(예외처리2 - 예외처리 도입 시작)">
+      <option name="closed" value="true" />
+      <created>1737529784262</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1737529784262</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -686,7 +687,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feat : 김영한 자바 중급(Math와 Random클래스 )" />
     <MESSAGE value="feat : 김영한 자바 중급(Math와 Random클래스 - 문제풀이1)" />
     <MESSAGE value="feat : 김영한 자바 중급(Math와 Random클래스 - 로또번호 자동생성기)" />
     <MESSAGE value="feat : 김영한 자바 중급(열거형 ENUM)" />
@@ -711,7 +711,8 @@
     <MESSAGE value="feat : 김영한 자바 중급(예외처리 - 반환값으로 예외처리)" />
     <MESSAGE value="feat : 김영한 자바 중급(예외처리 - 체크 예외)" />
     <MESSAGE value="feat : 김영한 자바 중급(예외처리 - 언체크 예외)" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(예외처리 - 언체크 예외)" />
+    <MESSAGE value="feat : 김영한 자바 중급(예외처리2 - 예외처리 도입 시작)" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat : 김영한 자바 중급(예외처리2 - 예외처리 도입 시작)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
